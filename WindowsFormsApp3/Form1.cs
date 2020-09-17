@@ -48,5 +48,9 @@ namespace Picto
             this.Hide();
 
         }
+
+        private void btnConfi_Click(object sender, EventArgs e)
+        {
+        }
     }
 }

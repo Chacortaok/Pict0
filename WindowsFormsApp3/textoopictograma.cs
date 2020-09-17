@@ -13,7 +13,7 @@ namespace Picto
     public partial class textoopictograma : Form
     {
         
-        SpeechRecognitionEngine Escuchando = new SpeechRecognitionEngine("es-ES");
+        SpeechRecognitionEngine Escuchando = new SpeechRecognitionEngine();
         
         public textoopictograma()
         {
