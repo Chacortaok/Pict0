@@ -28,14 +28,10 @@ namespace Picto
             newForm.Show();
             this.Hide();
         }
-        void _Recognition_SpeechRecognized(object sender, SpeechRecognizedEventArgs e)
+        private void _Recognition_SpeechRecognized(object sender, SpeechRecognizedEventArgs e)
         {
-
-            foreach (RecognizedWordUnit word in e.Result.Words)
-            {
-                lsTexto.Items.Add(word.Text);
+            textBox1.Text = e.Result.Text;
             }
-        }
 
         private void btnHablar_Click(object sender, EventArgs e)
         {
@@ -43,6 +39,12 @@ namespace Picto
             Escuchando.LoadGrammar(new DictationGrammar());
             Escuchando.SpeechRecognized += _Recognition_SpeechRecognized;
             Escuchando.RecognizeAsync(RecognizeMode.Multiple);
+        }
+
+        private void btnStop_Click(object sender, EventArgs e)
+        {
+            Escuchando.RecognizeAsyncStop();
+            textBox1.Text = "";
         }
     }
 }

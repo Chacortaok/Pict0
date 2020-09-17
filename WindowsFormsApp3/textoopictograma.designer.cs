@@ -40,7 +40,8 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.btnHablar = new System.Windows.Forms.Button();
-            this.lsTexto = new System.Windows.Forms.ListBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnStop = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox11
@@ -141,7 +142,7 @@
             // 
             this.btnHablar.BackColor = System.Drawing.Color.White;
             this.btnHablar.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHablar.Location = new System.Drawing.Point(1492, 531);
+            this.btnHablar.Location = new System.Drawing.Point(179, 381);
             this.btnHablar.Name = "btnHablar";
             this.btnHablar.Size = new System.Drawing.Size(375, 476);
             this.btnHablar.TabIndex = 16;
@@ -149,13 +150,22 @@
             this.btnHablar.UseVisualStyleBackColor = false;
             this.btnHablar.Click += new System.EventHandler(this.btnHablar_Click);
             // 
-            // lsTexto
+            // textBox1
             // 
-            this.lsTexto.FormattingEnabled = true;
-            this.lsTexto.Location = new System.Drawing.Point(28, 401);
-            this.lsTexto.Name = "lsTexto";
-            this.lsTexto.Size = new System.Drawing.Size(1435, 615);
-            this.lsTexto.TabIndex = 17;
+            this.textBox1.Location = new System.Drawing.Point(28, 337);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(1351, 20);
+            this.textBox1.TabIndex = 17;
+            // 
+            // btnStop
+            // 
+            this.btnStop.Location = new System.Drawing.Point(28, 381);
+            this.btnStop.Name = "btnStop";
+            this.btnStop.Size = new System.Drawing.Size(75, 23);
+            this.btnStop.TabIndex = 18;
+            this.btnStop.Text = "DETENER";
+            this.btnStop.UseVisualStyleBackColor = true;
+            this.btnStop.Click += new System.EventHandler(this.btnStop_Click);
             // 
             // textoopictograma
             // 
@@ -163,7 +173,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(203)))), ((int)(((byte)(193)))));
             this.ClientSize = new System.Drawing.Size(1904, 1041);
-            this.Controls.Add(this.lsTexto);
+            this.Controls.Add(this.btnStop);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnHablar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox11);
@@ -199,6 +210,7 @@
         private System.Windows.Forms.TextBox textBox2;
         public System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnHablar;
-        private System.Windows.Forms.ListBox lsTexto;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnStop;
     }
 }
