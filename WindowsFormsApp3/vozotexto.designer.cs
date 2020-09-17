@@ -1,6 +1,6 @@
 ﻿namespace Picto
 {
-    partial class vozotexto
+    partial class txt
     {
         /// <summary>
         /// Required designer variable.
@@ -39,8 +39,9 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.txtTEXTO = new System.Windows.Forms.TextBox();
+            this.btnEscuchar = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // label1
@@ -137,36 +138,47 @@
             this.textBox2.Size = new System.Drawing.Size(104, 106);
             this.textBox2.TabIndex = 25;
             // 
-            // textBox1
+            // txtTEXTO
             // 
-            this.textBox1.Font = new System.Drawing.Font("Open-Dyslexic", 20.25F);
-            this.textBox1.Location = new System.Drawing.Point(45, 531);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.ShortcutsEnabled = false;
-            this.textBox1.Size = new System.Drawing.Size(1406, 476);
-            this.textBox1.TabIndex = 26;
+            this.txtTEXTO.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
+            this.txtTEXTO.Location = new System.Drawing.Point(45, 531);
+            this.txtTEXTO.Multiline = true;
+            this.txtTEXTO.Name = "txtTEXTO";
+            this.txtTEXTO.ReadOnly = true;
+            this.txtTEXTO.ShortcutsEnabled = false;
+            this.txtTEXTO.Size = new System.Drawing.Size(1406, 476);
+            this.txtTEXTO.TabIndex = 26;
             // 
-            // button1
+            // btnEscuchar
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Open-Dyslexic", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(1492, 531);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(375, 476);
-            this.button1.TabIndex = 27;
-            this.button1.Text = "Traducir";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnEscuchar.BackColor = System.Drawing.Color.White;
+            this.btnEscuchar.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEscuchar.Location = new System.Drawing.Point(1492, 531);
+            this.btnEscuchar.Name = "btnEscuchar";
+            this.btnEscuchar.Size = new System.Drawing.Size(375, 476);
+            this.btnEscuchar.TabIndex = 27;
+            this.btnEscuchar.Text = "Traducir";
+            this.btnEscuchar.UseVisualStyleBackColor = false;
+            this.btnEscuchar.Click += new System.EventHandler(this.btnEscuchar_Click);
             // 
-            // vozotexto
+            // listBox1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(20F, 38F);
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 37;
+            this.listBox1.Location = new System.Drawing.Point(422, 602);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(458, 263);
+            this.listBox1.TabIndex = 28;
+            // 
+            // txt
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(19F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(203)))), ((int)(((byte)(193)))));
             this.ClientSize = new System.Drawing.Size(1904, 1041);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.btnEscuchar);
+            this.Controls.Add(this.txtTEXTO);
             this.Controls.Add(this.textBox11);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.textBox9);
@@ -178,9 +190,9 @@
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label1);
-            this.Font = new System.Drawing.Font("Open-Dyslexic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(10, 9, 10, 9);
-            this.Name = "vozotexto";
+            this.Name = "txt";
             this.Text = "vozotexto";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.vozotexto_Load);
@@ -202,7 +214,8 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtTEXTO;
+        private System.Windows.Forms.Button btnEscuchar;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }

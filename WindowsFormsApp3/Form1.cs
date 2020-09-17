@@ -26,7 +26,7 @@ namespace Picto
 
         private void btn3_Click(object sender, EventArgs e)
         {
-            var newForm4 = new vozotexto();
+            var newForm4 = new txt();
             newForm4.Show();
             this.Hide();
         }
