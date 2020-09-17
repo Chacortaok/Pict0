@@ -39,7 +39,6 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
-            this.txtTEXTO = new System.Windows.Forms.TextBox();
             this.btnEscuchar = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
@@ -138,17 +137,6 @@
             this.textBox2.Size = new System.Drawing.Size(104, 106);
             this.textBox2.TabIndex = 25;
             // 
-            // txtTEXTO
-            // 
-            this.txtTEXTO.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
-            this.txtTEXTO.Location = new System.Drawing.Point(45, 531);
-            this.txtTEXTO.Multiline = true;
-            this.txtTEXTO.Name = "txtTEXTO";
-            this.txtTEXTO.ReadOnly = true;
-            this.txtTEXTO.ShortcutsEnabled = false;
-            this.txtTEXTO.Size = new System.Drawing.Size(1406, 476);
-            this.txtTEXTO.TabIndex = 26;
-            // 
             // btnEscuchar
             // 
             this.btnEscuchar.BackColor = System.Drawing.Color.White;
@@ -165,9 +153,9 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 37;
-            this.listBox1.Location = new System.Drawing.Point(422, 602);
+            this.listBox1.Location = new System.Drawing.Point(28, 361);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(458, 263);
+            this.listBox1.Size = new System.Drawing.Size(1440, 670);
             this.listBox1.TabIndex = 28;
             // 
             // txt
@@ -178,7 +166,6 @@
             this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btnEscuchar);
-            this.Controls.Add(this.txtTEXTO);
             this.Controls.Add(this.textBox11);
             this.Controls.Add(this.textBox10);
             this.Controls.Add(this.textBox9);
@@ -214,7 +201,6 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox txtTEXTO;
         private System.Windows.Forms.Button btnEscuchar;
         private System.Windows.Forms.ListBox listBox1;
     }

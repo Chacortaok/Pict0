@@ -39,8 +39,8 @@
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnHablar = new System.Windows.Forms.Button();
+            this.lsTexto = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // textBox11
@@ -137,27 +137,25 @@
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
-            // textBox1
+            // btnHablar
             // 
-            this.textBox1.Font = new System.Drawing.Font("Open-Dyslexic", 20.25F);
-            this.textBox1.Location = new System.Drawing.Point(45, 531);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.ShortcutsEnabled = false;
-            this.textBox1.Size = new System.Drawing.Size(1406, 476);
-            this.textBox1.TabIndex = 15;
+            this.btnHablar.BackColor = System.Drawing.Color.White;
+            this.btnHablar.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHablar.Location = new System.Drawing.Point(1492, 531);
+            this.btnHablar.Name = "btnHablar";
+            this.btnHablar.Size = new System.Drawing.Size(375, 476);
+            this.btnHablar.TabIndex = 16;
+            this.btnHablar.Text = "Hablar";
+            this.btnHablar.UseVisualStyleBackColor = false;
+            this.btnHablar.Click += new System.EventHandler(this.btnHablar_Click);
             // 
-            // button1
+            // lsTexto
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Font = new System.Drawing.Font("Open-Dyslexic", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(1492, 531);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(375, 476);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "Hablar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.lsTexto.FormattingEnabled = true;
+            this.lsTexto.Location = new System.Drawing.Point(28, 401);
+            this.lsTexto.Name = "lsTexto";
+            this.lsTexto.Size = new System.Drawing.Size(1435, 615);
+            this.lsTexto.TabIndex = 17;
             // 
             // textoopictograma
             // 
@@ -165,8 +163,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(203)))), ((int)(((byte)(193)))));
             this.ClientSize = new System.Drawing.Size(1904, 1041);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lsTexto);
+            this.Controls.Add(this.btnHablar);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox11);
             this.Controls.Add(this.textBox10);
@@ -200,7 +198,7 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
         public System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnHablar;
+        private System.Windows.Forms.ListBox lsTexto;
     }
 }
