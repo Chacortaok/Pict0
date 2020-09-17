@@ -6,12 +6,15 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using System.Speech.Recognition;
+using System.Globalization;
 
 namespace Picto
 {
     public partial class textoopictograma : Form
     {
-        SpeechRecognitionEngine Escuchando = new SpeechRecognitionEngine();
+        
+        SpeechRecognitionEngine Escuchando = new SpeechRecognitionEngine("es-ES");
+        
         public textoopictograma()
         {
             InitializeComponent();
@@ -39,6 +42,8 @@ namespace Picto
             Escuchando.LoadGrammar(new DictationGrammar());
             Escuchando.SpeechRecognized += _Recognition_SpeechRecognized;
             Escuchando.RecognizeAsync(RecognizeMode.Multiple);
+            
+            
         }
 
         private void btnStop_Click(object sender, EventArgs e)
@@ -47,4 +52,7 @@ namespace Picto
             textBox1.Text = "";
         }
     }
+    
+    
+
 }
