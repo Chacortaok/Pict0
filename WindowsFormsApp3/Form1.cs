@@ -49,8 +49,15 @@ namespace Picto
 
         }
 
-        private void btnConfi_Click(object sender, EventArgs e)
+        private void btnConfi_Click (object sender, EventArgs e)
         {
+            MessageBox.Show("ERROR");
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            hora.Text = DateTime.Now.ToLongTimeString();
         }
     }
 }
+ 

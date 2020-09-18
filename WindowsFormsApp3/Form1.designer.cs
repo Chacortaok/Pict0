@@ -28,11 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.btn1 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
             this.btn3 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnConfi = new System.Windows.Forms.Button();
+            this.hora = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btn1
@@ -94,11 +98,36 @@
             // 
             this.btnConfi.Location = new System.Drawing.Point(12, 937);
             this.btnConfi.Name = "btnConfi";
-            this.btnConfi.Size = new System.Drawing.Size(90, 23);
+            this.btnConfi.Size = new System.Drawing.Size(100, 23);
             this.btnConfi.TabIndex = 2;
             this.btnConfi.Text = "Configuracion";
             this.btnConfi.UseVisualStyleBackColor = true;
             this.btnConfi.Click += new System.EventHandler(this.btnConfi_Click);
+            // 
+            // hora
+            // 
+            this.hora.AutoSize = true;
+            this.hora.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hora.Location = new System.Drawing.Point(23, 20);
+            this.hora.Name = "hora";
+            this.hora.Size = new System.Drawing.Size(137, 29);
+            this.hora.TabIndex = 3;
+            this.hora.Text = "HH;SS;MM;";
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.label2.Location = new System.Drawing.Point(59, 49);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(34, 15);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Hora";
             // 
             // Home
             // 
@@ -107,6 +136,8 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(203)))), ((int)(((byte)(193)))));
             this.ClientSize = new System.Drawing.Size(1904, 972);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.hora);
             this.Controls.Add(this.btnConfi);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn3);
@@ -131,6 +162,9 @@
         private System.Windows.Forms.Button btn3;
         public System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnConfi;
+        private System.Windows.Forms.Label hora;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
