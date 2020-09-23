@@ -27,6 +27,8 @@ namespace Picto
 
         private void label1_Click_1(object sender, EventArgs e)
         {
+            //label picto lleva a la home
+            // Lo hizo Dante 
             var newForm = new Home();
             newForm.Show();
             this.Hide();
@@ -38,6 +40,8 @@ namespace Picto
 
         private void btnHablar_Click(object sender, EventArgs e)
         {
+            // Abre el puerto de audio establecido como deafault, Carga el diccionario de gramatico ya preestablecido y utiliza el reconizespeech.Multiple 
+            // Lo hizo Tomas 
             Escuchando.SetInputToDefaultAudioDevice();
             Escuchando.LoadGrammar(new DictationGrammar());
             Escuchando.SpeechRecognized += _Recognition_SpeechRecognized;
@@ -48,6 +52,8 @@ namespace Picto
 
         private void btnStop_Click(object sender, EventArgs e)
         {
+            //para de reconozer palabras y vacia el espacio de escritura
+            // Lo hizo tomas 
             Escuchando.RecognizeAsyncStop();
             textBox1.Text = "";
         }

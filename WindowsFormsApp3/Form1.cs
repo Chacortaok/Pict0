@@ -16,7 +16,7 @@ namespace Picto
         {
             InitializeComponent();
         }
-
+        // Te manda a las diferentes partes de la App 
         private void btn2_Click(object sender, EventArgs e)
         {
             var newForm3 = new vozopictograma();
@@ -48,14 +48,19 @@ namespace Picto
             this.Hide();
 
         }
+        // Aca termina la anterior aclaracion 
+        // Dante 
 
         private void btnConfi_Click (object sender, EventArgs e)
         {
+            //btn configuracion, NO ESTA NI EMPEZADO,
             MessageBox.Show("ERROR");
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            // hora de Actual utiliza el DataTime de la PC. 
+            // Lo hizo Tomas 
             hora.Text = DateTime.Now.ToLongTimeString();
         }
     }
