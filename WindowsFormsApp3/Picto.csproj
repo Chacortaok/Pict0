@@ -53,19 +53,26 @@
     <Compile Include="Form1.designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pictos2q.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pictos2q.Designer.cs">
+      <DependentUpon>Pictos2q.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Texto.cs" />
     <Compile Include="textoopictograma.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="textoopictograma.Designer.cs">
       <DependentUpon>textoopictograma.cs</DependentUpon>
     </Compile>
-    <Compile Include="vozopictograma.cs">
+    <Compile Include="Pictogramas1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="vozopictograma.designer.cs">
-      <DependentUpon>vozopictograma.cs</DependentUpon>
+    <Compile Include="Pictogramas1.designer.cs">
+      <DependentUpon>Pictogramas1.cs</DependentUpon>
     </Compile>
     <Compile Include="vozotexto.cs">
       <SubType>Form</SubType>
@@ -75,6 +82,9 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pictos2q.resx">
+      <DependentUpon>Pictos2q.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -88,8 +98,8 @@
     <EmbeddedResource Include="textoopictograma.resx">
       <DependentUpon>textoopictograma.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="vozopictograma.resx">
-      <DependentUpon>vozopictograma.cs</DependentUpon>
+    <EmbeddedResource Include="Pictogramas1.resx">
+      <DependentUpon>Pictogramas1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="vozotexto.resx">
       <DependentUpon>vozotexto.cs</DependentUpon>

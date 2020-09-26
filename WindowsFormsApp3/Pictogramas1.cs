@@ -11,6 +11,7 @@ namespace Picto
 {
     public partial class vozopictograma : Form
     {
+        String texto; 
         public vozopictograma()
         {
             InitializeComponent();
@@ -43,6 +44,8 @@ namespace Picto
             }
         }
 
-   
+        private void picquerer_Click(object sender, EventArgs e)
+        {
+        }
     }
 }
