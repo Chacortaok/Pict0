@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using System.Speech.Synthesis;
+using WindowsFormsApp3;
 
 namespace Picto
 {
@@ -46,6 +47,11 @@ namespace Picto
 
         private void picquerer_Click(object sender, EventArgs e)
         {
+            MyGlobals.Texto = "Yo quiero ";
+            var Picto2q = new Pictos2q();
+            Picto2q.Show();
+            this.Hide();
+
         }
     }
 }

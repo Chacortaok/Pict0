@@ -26,9 +26,9 @@ namespace Picto
 
         private void btn3_Click(object sender, EventArgs e)
         {
-            var newForm4 = new txt();
-            newForm4.Show();
-            this.Hide();
+          //var newForm4 = new txt();
+          //  newForm4.Show();
+          //  this.Hide();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -43,9 +43,9 @@ namespace Picto
 
         private void btn1_Click(object sender, EventArgs e)
         {
-            var newForm2 = new textoopictograma();
-            newForm2.Show();
-            this.Hide();
+           // var newForm2 = new textoopictograma();
+           // newForm2.Show();
+           // this.Hide();
 
         }
         // Aca termina la anterior aclaracion 
@@ -63,6 +63,13 @@ namespace Picto
             // Lo hizo Tomas 
             hora.Text = DateTime.Now.ToLongTimeString();
         }
+
     }
 }
- 
+// Variable Global 
+// Tomas Caula 
+public static class MyGlobals
+{
+    public static string Texto;
+}
+// fin MyGlobals 

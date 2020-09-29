@@ -51,6 +51,7 @@
             this.btn1.TabIndex = 0;
             this.btn1.Text = "Voz a texto/pictogramas";
             this.btn1.UseVisualStyleBackColor = false;
+            this.btn1.Visible = false;
             this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
             // btn2
@@ -63,7 +64,7 @@
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(346, 85);
             this.btn2.TabIndex = 0;
-            this.btn2.Text = "Texto a voz/pictogramas";
+            this.btn2.Text = "Pictogramas ";
             this.btn2.UseVisualStyleBackColor = false;
             this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
@@ -78,6 +79,7 @@
             this.btn3.TabIndex = 0;
             this.btn3.Text = "Pictogramas a texto/voz";
             this.btn3.UseVisualStyleBackColor = false;
+            this.btn3.Visible = false;
             this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
             // label1
