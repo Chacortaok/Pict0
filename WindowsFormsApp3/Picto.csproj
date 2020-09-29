@@ -62,6 +62,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Agregar datos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar datos.Designer.cs">
+      <DependentUpon>Agregar datos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
