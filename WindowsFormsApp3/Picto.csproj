@@ -62,22 +62,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Agregar datos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Agregar datos.Designer.cs">
-      <DependentUpon>Agregar datos.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ModeloDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>ModeloDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Pictos2q.cs">
       <SubType>Form</SubType>
@@ -129,17 +118,6 @@
     <EmbeddedResource Include="vozotexto.resx">
       <DependentUpon>vozotexto.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="ModeloDataSet.xsc">
-      <DependentUpon>ModeloDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="ModeloDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>ModeloDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="ModeloDataSet.xss">
-      <DependentUpon>ModeloDataSet.xsd</DependentUpon>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -164,15 +142,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="BaseDataPicto.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="BaseDataPicto_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <DependentUpon>BaseDataPicto.mdf</DependentUpon>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
