@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,10 @@ namespace Picto
 {
     public partial class Home : Form
     {
+        //
+        SqlConnection Conexion = new SqlConnection("DataBase = DataPicto; integrated security = true"); 
+        
+         //
         public Home()
         {
             InitializeComponent();

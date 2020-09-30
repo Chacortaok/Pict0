@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace WindowsFormsApp3
 {
-    class Class1
+    public class Categoria 
     {
+        public string nombre;
+        public Categoria[] subcategorias;
     }
 }
