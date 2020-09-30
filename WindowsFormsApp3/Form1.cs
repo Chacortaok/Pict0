@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp3;
 
 namespace Picto
 {
@@ -53,8 +54,9 @@ namespace Picto
 
         private void btnConfi_Click (object sender, EventArgs e)
         {
-            //btn configuracion, NO ESTA NI EMPEZADO,
-            MessageBox.Show("ERROR");
+            var C = new Configuracion();
+            C.Show();
+            this.Hide();
         }
 
         private void timer1_Tick(object sender, EventArgs e)
