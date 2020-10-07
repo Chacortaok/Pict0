@@ -49,5 +49,12 @@ namespace Picto
         {          
 
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            var newForm = new Home();
+            newForm.Show();
+            this.Hide();
+        }
     }
 }
