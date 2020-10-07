@@ -29,30 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.btn1 = new System.Windows.Forms.Button();
             this.btn2 = new System.Windows.Forms.Button();
-            this.btn3 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.btnConfi = new System.Windows.Forms.Button();
             this.hora = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // btn1
-            // 
-            this.btn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(203)))), ((int)(((byte)(193)))));
-            this.btn1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.btn1.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold);
-            this.btn1.ForeColor = System.Drawing.Color.White;
-            this.btn1.Location = new System.Drawing.Point(787, 517);
-            this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(346, 85);
-            this.btn1.TabIndex = 0;
-            this.btn1.Text = "Voz a texto/pictogramas";
-            this.btn1.UseVisualStyleBackColor = false;
-            this.btn1.Visible = false;
-            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
             // btn2
             // 
@@ -67,20 +50,6 @@
             this.btn2.Text = "Pictogramas ";
             this.btn2.UseVisualStyleBackColor = false;
             this.btn2.Click += new System.EventHandler(this.btn2_Click);
-            // 
-            // btn3
-            // 
-            this.btn3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(203)))), ((int)(((byte)(193)))));
-            this.btn3.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold);
-            this.btn3.ForeColor = System.Drawing.Color.White;
-            this.btn3.Location = new System.Drawing.Point(787, 784);
-            this.btn3.Name = "btn3";
-            this.btn3.Size = new System.Drawing.Size(346, 85);
-            this.btn3.TabIndex = 0;
-            this.btn3.Text = "Pictogramas a texto/voz";
-            this.btn3.UseVisualStyleBackColor = false;
-            this.btn3.Visible = false;
-            this.btn3.Click += new System.EventHandler(this.btn3_Click);
             // 
             // label1
             // 
@@ -142,9 +111,7 @@
             this.Controls.Add(this.hora);
             this.Controls.Add(this.btnConfi);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btn3);
             this.Controls.Add(this.btn2);
-            this.Controls.Add(this.btn1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Home";
@@ -158,10 +125,7 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Button btn2;
-        private System.Windows.Forms.Button btn3;
         public System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnConfi;
         private System.Windows.Forms.Label hora;
