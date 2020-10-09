@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Picto;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,77 +8,57 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp3;
 
 namespace WindowsFormsApp3
 {
     public partial class Configuracion : Form
     {
-        Categoria img = new Categoria();
         public Configuracion()
         {
             InitializeComponent();
         }
 
-        private void btnSave_Click(object sender, EventArgs e)
-        {
-        }
-
-        private void openFileDialog_FileOk(object sender, CancelEventArgs e)
-        {
-
-        }
-
-        private void BtnExaminar_Click(object sender, EventArgs e)
+        private void btnExaminar_Click(object sender, EventArgs e)
         {
             // Usa Try Para captar si hay un error. 
             // usa el openFileDialog.ShowDialog() 
             //Lo cargar(.Load) en la picturebox 
             try
             {
-                this.openFileDialog.ShowDialog();
-                if (this.openFileDialog.FileName.Equals("") == false)
+                this.openFileDialog1.ShowDialog();
+                if (this.openFileDialog1.FileName.Equals("") == false)
                 {
-                    pictureBox1.Load(this.openFileDialog.FileName);
+                    Pictograma.Load(this.openFileDialog1.FileName);
                 }
             }
             catch
             {
                 MessageBox.Show("No se pudo cargar la imagen");
             }
-
-            ///
         }
 
-        private void tableBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        private void tabla1BindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
             this.Validate();
-            this.tableBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.database1DataSet);
-         }
+            this.tabla1BindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.baseDataPictoDataSet);
+
+        }
 
         private void Configuracion_Load(object sender, EventArgs e)
         {
-            // TODO: esta línea de código carga datos en la tabla 'database1DataSet.Table' Puede moverla o quitarla según sea necesario.
-            this.tableTableAdapter.Fill(this.database1DataSet.Table);
+            // TODO: esta línea de código carga datos en la tabla 'baseDataPictoDataSet.Tabla1' Puede moverla o quitarla según sea necesario.
+            this.tabla1TableAdapter.Fill(this.baseDataPictoDataSet.Tabla1);
 
         }
 
-        private void tableDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        private void lblHome_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void fillByToolStripButton_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                this.tableTableAdapter.FillBy(this.database1DataSet.Table);
-            }
-            catch (System.Exception ex)
-            {
-                System.Windows.Forms.MessageBox.Show(ex.Message);
-            }
-
+            var newForm = new Home();
+            newForm.Show();
+            this.Hide();
         }
     }
 }
+

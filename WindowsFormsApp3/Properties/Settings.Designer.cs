@@ -55,5 +55,38 @@ namespace WindowsFormsApp3.Properties {
                 return ((string)(this["CnDatabase1"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\\BaseDataPictogramas" +
+            ".accdb")]
+        public string BaseDataPictogramasConnectionString {
+            get {
+                return ((string)(this["BaseDataPictogramasConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\Tomas\\Documents\\GitHub\\Pic" +
+            "t0\\BaseDataPictogramas.accdb")]
+        public string BaseDataPictogramasConnectionString1 {
+            get {
+                return ((string)(this["BaseDataPictogramasConnectionString1"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\Tomas\\Documents\\GitHub\\Pic" +
+            "t0\\BaseDataPicto.accdb")]
+        public string BaseDataPictoConnectionString {
+            get {
+                return ((string)(this["BaseDataPictoConnectionString"]));
+            }
+        }
     }
 }
