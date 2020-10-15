@@ -59,6 +59,26 @@ namespace WindowsFormsApp3
             newForm.Show();
             this.Hide();
         }
+
+        private void tabla1BindingSource3BindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.tabla1BindingSource3.EndEdit();
+            this.tableAdapterManager1.UpdateAll(this.baseDataPictoDataSet1);
+
+        }
+
+        private void Configuracion_Load_1(object sender, EventArgs e)
+        {
+            // TODO: esta línea de código carga datos en la tabla 'baseDataPictoDataSet1.Tabla1' Puede moverla o quitarla según sea necesario.
+            this.tabla1TableAdapter1.Fill(this.baseDataPictoDataSet1.Tabla1);
+
+        }
+
+        private void campo1PictureBox_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

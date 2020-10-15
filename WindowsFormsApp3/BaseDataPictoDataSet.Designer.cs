@@ -279,9 +279,11 @@ namespace WindowsFormsApp3 {
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
         public partial class Tabla1DataTable : global::System.Data.TypedTableBase<Tabla1Row> {
             
+            private global::System.Data.DataColumn columnId;
+            
             private global::System.Data.DataColumn columnNombre;
             
-            private global::System.Data.DataColumn columnImagenPic;
+            private global::System.Data.DataColumn columnCampo1;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
@@ -318,6 +320,14 @@ namespace WindowsFormsApp3 {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public global::System.Data.DataColumn IdColumn {
+                get {
+                    return this.columnId;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public global::System.Data.DataColumn NombreColumn {
                 get {
                     return this.columnNombre;
@@ -326,9 +336,9 @@ namespace WindowsFormsApp3 {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public global::System.Data.DataColumn ImagenPicColumn {
+            public global::System.Data.DataColumn Campo1Column {
                 get {
-                    return this.columnImagenPic;
+                    return this.columnCampo1;
                 }
             }
             
@@ -369,11 +379,12 @@ namespace WindowsFormsApp3 {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public Tabla1Row AddTabla1Row(string Nombre, byte ImagenPic) {
+            public Tabla1Row AddTabla1Row(string Nombre, string Campo1) {
                 Tabla1Row rowTabla1Row = ((Tabla1Row)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
+                        null,
                         Nombre,
-                        ImagenPic};
+                        Campo1};
                 rowTabla1Row.ItemArray = columnValuesArray;
                 this.Rows.Add(rowTabla1Row);
                 return rowTabla1Row;
@@ -381,9 +392,9 @@ namespace WindowsFormsApp3 {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public Tabla1Row FindByNombre(string Nombre) {
+            public Tabla1Row FindById(int Id) {
                 return ((Tabla1Row)(this.Rows.Find(new object[] {
-                            Nombre})));
+                            Id})));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -403,24 +414,29 @@ namespace WindowsFormsApp3 {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             internal void InitVars() {
+                this.columnId = base.Columns["Id"];
                 this.columnNombre = base.Columns["Nombre"];
-                this.columnImagenPic = base.Columns["ImagenPic"];
+                this.columnCampo1 = base.Columns["Campo1"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             private void InitClass() {
+                this.columnId = new global::System.Data.DataColumn("Id", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnId);
                 this.columnNombre = new global::System.Data.DataColumn("Nombre", typeof(string), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnNombre);
-                this.columnImagenPic = new global::System.Data.DataColumn("ImagenPic", typeof(byte), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnImagenPic);
+                this.columnCampo1 = new global::System.Data.DataColumn("Campo1", typeof(string), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnCampo1);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
-                                this.columnNombre}, true));
-                this.columnNombre.AutoIncrementSeed = -1;
-                this.columnNombre.AutoIncrementStep = -1;
-                this.columnNombre.AllowDBNull = false;
-                this.columnNombre.Unique = true;
+                                this.columnId}, true));
+                this.columnId.AutoIncrement = true;
+                this.columnId.AutoIncrementSeed = -1;
+                this.columnId.AutoIncrementStep = -1;
+                this.columnId.AllowDBNull = false;
+                this.columnId.Unique = true;
                 this.columnNombre.MaxLength = 536870910;
+                this.columnCampo1.MaxLength = 536870910;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -563,9 +579,25 @@ namespace WindowsFormsApp3 {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public int Id {
+                get {
+                    return ((int)(this[this.tableTabla1.IdColumn]));
+                }
+                set {
+                    this[this.tableTabla1.IdColumn] = value;
+                }
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
             public string Nombre {
                 get {
-                    return ((string)(this[this.tableTabla1.NombreColumn]));
+                    try {
+                        return ((string)(this[this.tableTabla1.NombreColumn]));
+                    }
+                    catch (global::System.InvalidCastException e) {
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'Nombre\' de la tabla \'Tabla1\' es DBNull.", e);
+                    }
                 }
                 set {
                     this[this.tableTabla1.NombreColumn] = value;
@@ -574,30 +606,42 @@ namespace WindowsFormsApp3 {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public byte ImagenPic {
+            public string Campo1 {
                 get {
                     try {
-                        return ((byte)(this[this.tableTabla1.ImagenPicColumn]));
+                        return ((string)(this[this.tableTabla1.Campo1Column]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("El valor de la columna \'ImagenPic\' de la tabla \'Tabla1\' es DBNull.", e);
+                        throw new global::System.Data.StrongTypingException("El valor de la columna \'Campo1\' de la tabla \'Tabla1\' es DBNull.", e);
                     }
                 }
                 set {
-                    this[this.tableTabla1.ImagenPicColumn] = value;
+                    this[this.tableTabla1.Campo1Column] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public bool IsImagenPicNull() {
-                return this.IsNull(this.tableTabla1.ImagenPicColumn);
+            public bool IsNombreNull() {
+                return this.IsNull(this.tableTabla1.NombreColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
-            public void SetImagenPicNull() {
-                this[this.tableTabla1.ImagenPicColumn] = global::System.Convert.DBNull;
+            public void SetNombreNull() {
+                this[this.tableTabla1.NombreColumn] = global::System.Convert.DBNull;
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public bool IsCampo1Null() {
+                return this.IsNull(this.tableTabla1.Campo1Column);
+            }
+            
+            [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+            [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
+            public void SetCampo1Null() {
+                this[this.tableTabla1.Campo1Column] = global::System.Convert.DBNull;
             }
         }
         
@@ -760,8 +804,9 @@ namespace WindowsFormsApp3.BaseDataPictoDataSetTableAdapters {
             global::System.Data.Common.DataTableMapping tableMapping = new global::System.Data.Common.DataTableMapping();
             tableMapping.SourceTable = "Table";
             tableMapping.DataSetTable = "Tabla1";
-            tableMapping.ColumnMappings.Add("Id", "Nombre");
-            tableMapping.ColumnMappings.Add("Campo1", "ImagenPic");
+            tableMapping.ColumnMappings.Add("Id", "Id");
+            tableMapping.ColumnMappings.Add("Nombre", "Nombre");
+            tableMapping.ColumnMappings.Add("Campo1", "Campo1");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.DeleteCommand = new global::System.Data.OleDb.OleDbCommand();
             this._adapter.DeleteCommand.Connection = this.Connection;
@@ -770,13 +815,15 @@ namespace WindowsFormsApp3.BaseDataPictoDataSetTableAdapters {
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_Id", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Id", global::System.Data.DataRowVersion.Original, false, null));
             this._adapter.InsertCommand = new global::System.Data.OleDb.OleDbCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = "INSERT INTO `Tabla1` (`Campo1`) VALUES (?)";
+            this._adapter.InsertCommand.CommandText = "INSERT INTO `Tabla1` (`Nombre`, `Campo1`) VALUES (?, ?)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
+            this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Nombre", global::System.Data.OleDb.OleDbType.LongVarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Nombre", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Campo1", global::System.Data.OleDb.OleDbType.LongVarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Campo1", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.UpdateCommand = new global::System.Data.OleDb.OleDbCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
-            this._adapter.UpdateCommand.CommandText = "UPDATE `Tabla1` SET `Campo1` = ? WHERE ((`Id` = ?))";
+            this._adapter.UpdateCommand.CommandText = "UPDATE `Tabla1` SET `Nombre` = ?, `Campo1` = ? WHERE ((`Id` = ?))";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
+            this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Nombre", global::System.Data.OleDb.OleDbType.LongVarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Nombre", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Campo1", global::System.Data.OleDb.OleDbType.LongVarWChar, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Campo1", global::System.Data.DataRowVersion.Current, false, null));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.OleDb.OleDbParameter("Original_Id", global::System.Data.OleDb.OleDbType.Integer, 0, global::System.Data.ParameterDirection.Input, ((byte)(0)), ((byte)(0)), "Id", global::System.Data.DataRowVersion.Original, false, null));
         }
@@ -794,7 +841,7 @@ namespace WindowsFormsApp3.BaseDataPictoDataSetTableAdapters {
             this._commandCollection = new global::System.Data.OleDb.OleDbCommand[1];
             this._commandCollection[0] = new global::System.Data.OleDb.OleDbCommand();
             this._commandCollection[0].Connection = this.Connection;
-            this._commandCollection[0].CommandText = "SELECT Id, Campo1 FROM Tabla1";
+            this._commandCollection[0].CommandText = "SELECT Id, Nombre, Campo1 FROM Tabla1";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         
@@ -877,12 +924,18 @@ namespace WindowsFormsApp3.BaseDataPictoDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Insert, true)]
-        public virtual int Insert(string Campo1) {
-            if ((Campo1 == null)) {
+        public virtual int Insert(string Nombre, string Campo1) {
+            if ((Nombre == null)) {
                 this.Adapter.InsertCommand.Parameters[0].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.InsertCommand.Parameters[0].Value = ((string)(Campo1));
+                this.Adapter.InsertCommand.Parameters[0].Value = ((string)(Nombre));
+            }
+            if ((Campo1 == null)) {
+                this.Adapter.InsertCommand.Parameters[1].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.InsertCommand.Parameters[1].Value = ((string)(Campo1));
             }
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.InsertCommand.Connection.State;
             if (((this.Adapter.InsertCommand.Connection.State & global::System.Data.ConnectionState.Open) 
@@ -904,14 +957,20 @@ namespace WindowsFormsApp3.BaseDataPictoDataSetTableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "16.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Update, true)]
-        public virtual int Update(string Campo1, int Original_Id) {
-            if ((Campo1 == null)) {
+        public virtual int Update(string Nombre, string Campo1, int Original_Id) {
+            if ((Nombre == null)) {
                 this.Adapter.UpdateCommand.Parameters[0].Value = global::System.DBNull.Value;
             }
             else {
-                this.Adapter.UpdateCommand.Parameters[0].Value = ((string)(Campo1));
+                this.Adapter.UpdateCommand.Parameters[0].Value = ((string)(Nombre));
             }
-            this.Adapter.UpdateCommand.Parameters[1].Value = ((int)(Original_Id));
+            if ((Campo1 == null)) {
+                this.Adapter.UpdateCommand.Parameters[1].Value = global::System.DBNull.Value;
+            }
+            else {
+                this.Adapter.UpdateCommand.Parameters[1].Value = ((string)(Campo1));
+            }
+            this.Adapter.UpdateCommand.Parameters[2].Value = ((int)(Original_Id));
             global::System.Data.ConnectionState previousConnectionState = this.Adapter.UpdateCommand.Connection.State;
             if (((this.Adapter.UpdateCommand.Connection.State & global::System.Data.ConnectionState.Open) 
                         != global::System.Data.ConnectionState.Open)) {

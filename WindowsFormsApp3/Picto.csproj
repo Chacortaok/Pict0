@@ -67,9 +67,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseDataPictoDataSet.cs">
-      <DependentUpon>BaseDataPictoDataSet.xsd</DependentUpon>
-    </Compile>
     <Compile Include="BaseDataPictoDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
