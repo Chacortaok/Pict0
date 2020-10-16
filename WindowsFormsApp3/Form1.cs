@@ -9,34 +9,27 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp3;
+using System.Data.OleDb;
 
 namespace Picto
 {
     public partial class Home : Form
     {
         //
-        SqlConnection Conexion = new SqlConnection("DataBase = DataPicto; integrated security = true"); 
+        OleDbConnection cn = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0 Data Source =BaseDataPicto.accdb");
         
-         //
+        //
         public Home()
         {
             InitializeComponent();
         }
-        // Te manda a las diferentes partes de la App 
+        // Te manda a las diferentes partes de la  App 
         private void btn2_Click(object sender, EventArgs e)
         {
             var newForm3 = new vozopictograma();
             newForm3.Show();
             this.Hide();
         }
-
-        private void btn3_Click(object sender, EventArgs e)
-        {
-          //var newForm4 = new txt();
-          //  newForm4.Show();
-          //  this.Hide();
-        }
-
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -46,17 +39,6 @@ namespace Picto
         {
 
         }
-
-        private void btn1_Click(object sender, EventArgs e)
-        {
-           // var newForm2 = new textoopictograma();
-           // newForm2.Show();
-           // this.Hide();
-
-        }
-        // Aca termina la anterior aclaracion 
-        // Dante 
-
         private void btnConfi_Click (object sender, EventArgs e)
         {
             var C = new Configuracion();
@@ -71,6 +53,10 @@ namespace Picto
             hora.Text = DateTime.Now.ToLongTimeString();
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 // Variable Global 
