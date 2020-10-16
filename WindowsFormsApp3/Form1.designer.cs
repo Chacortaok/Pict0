@@ -44,6 +44,7 @@
             this.btn2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btn2.Font = new System.Drawing.Font("Courier New", 24F, System.Drawing.FontStyle.Bold);
             this.btn2.ForeColor = System.Drawing.Color.White;
+            this.btn2.Image = ((System.Drawing.Image)(resources.GetObject("btn2.Image")));
             this.btn2.Location = new System.Drawing.Point(787, 649);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(346, 85);
@@ -55,12 +56,14 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Courier New", 80F);
             this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
             this.label1.Location = new System.Drawing.Point(776, 233);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(368, 114);
+            this.label1.Size = new System.Drawing.Size(370, 116);
             this.label1.TabIndex = 1;
             this.label1.Text = "Pict0";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -80,6 +83,7 @@
             // 
             this.hora.AutoSize = true;
             this.hora.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hora.Image = ((System.Drawing.Image)(resources.GetObject("hora.Image")));
             this.hora.Location = new System.Drawing.Point(23, 20);
             this.hora.Name = "hora";
             this.hora.Size = new System.Drawing.Size(137, 29);
@@ -95,6 +99,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
             this.label2.Location = new System.Drawing.Point(59, 49);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(34, 15);

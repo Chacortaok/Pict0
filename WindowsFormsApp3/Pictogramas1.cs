@@ -56,5 +56,10 @@ namespace Picto
             newForm.Show();
             this.Hide();
         }
+
+        private void vozopictograma_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
