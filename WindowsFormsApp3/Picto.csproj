@@ -85,6 +85,72 @@
     <Compile Include="Form1.designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormularioColores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioColores.Designer.cs">
+      <DependentUpon>FormularioColores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioComidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioComidas.Designer.cs">
+      <DependentUpon>FormularioComidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioComunicacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioComunicacion.Designer.cs">
+      <DependentUpon>FormularioComunicacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioJugar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioJugar.Designer.cs">
+      <DependentUpon>FormularioJugar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioLugares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioLugares.Designer.cs">
+      <DependentUpon>FormularioLugares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioNoQuerer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioNoQuerer.Designer.cs">
+      <DependentUpon>FormularioNoQuerer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioNumeros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioNumeros.Designer.cs">
+      <DependentUpon>FormularioNumeros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioQuerer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioQuerer.Designer.cs">
+      <DependentUpon>FormularioQuerer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioRopa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioRopa.Designer.cs">
+      <DependentUpon>FormularioRopa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioSentimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioSentimientos.Designer.cs">
+      <DependentUpon>FormularioSentimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormularioTransportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormularioTransportes.Designer.cs">
+      <DependentUpon>FormularioTransportes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Pictogramas1.cs">
@@ -99,6 +165,39 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormularioColores.resx">
+      <DependentUpon>FormularioColores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioComidas.resx">
+      <DependentUpon>FormularioComidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioComunicacion.resx">
+      <DependentUpon>FormularioComunicacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioJugar.resx">
+      <DependentUpon>FormularioJugar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioLugares.resx">
+      <DependentUpon>FormularioLugares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioNoQuerer.resx">
+      <DependentUpon>FormularioNoQuerer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioNumeros.resx">
+      <DependentUpon>FormularioNumeros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioQuerer.resx">
+      <DependentUpon>FormularioQuerer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioRopa.resx">
+      <DependentUpon>FormularioRopa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioSentimientos.resx">
+      <DependentUpon>FormularioSentimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormularioTransportes.resx">
+      <DependentUpon>FormularioTransportes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -107,6 +206,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Pictogramas1.resx">
       <DependentUpon>Pictogramas1.cs</DependentUpon>
@@ -147,6 +247,309 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAA COLORES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAA COMUNICACIÓN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAA NUMEROS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAA SI QUIERO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAA NO QUIERO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAA SENTIMIENTOS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FONDOO_1 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMARILLO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AZUL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BLANCO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GRIS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NARANJA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NEGRO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ROJO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ROSA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VERDE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VIOLETA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ADIOS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GRACIAS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HOLA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UNO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DOS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TRES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CUATRO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CINCO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SEIS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SIETE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OCHO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NUEVE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DIEZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ABURRIDO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ENFADADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ENFERMO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FELIZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MIEDO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TRISTE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ANDAR EN BICICLETA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ATARME LOS CORDONES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BAÑARME.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CEPILLARME LOS DIENTES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COMER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DORMIR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IR A.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IR AL BAÑO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VER LA TELEVISION.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAA COMIDAS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAA JUGUETES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAA LUGARES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAA ROPA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AGUA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARAMELOS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CENA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CHOCOLATE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DESAYUNO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MERIENDA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HELADO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CHOCOLATE1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AJEDREZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AUTO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BALONCESTO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BEISBOL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CUBO DE RUBIK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FUTBOL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MUÑECA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MUÑECO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ROMPECABEZAS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TENIS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CASA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ESCUELA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HABURGUESERIA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HOSPITAL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JARDIN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PARADA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PARQUE DE PATINAJE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PIZZERIA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PLAZA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JARDIN1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAA TRANSPORTES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AUTO1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AVION.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BARCO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\COLECTIVO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TAXI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AUTO2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AVION1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TREN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AAA ROPA1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ABRIGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BOTINES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CHANCLA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ZAPATOS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VESTIDO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\REMERA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PIJAMA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IMPERMEABLE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ABRIGO1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PANTALON.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GUANTE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JOYAS.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

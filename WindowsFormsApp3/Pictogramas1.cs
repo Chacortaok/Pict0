@@ -7,6 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Speech.Synthesis;
 using WindowsFormsApp3;
+using Picto;
 
 namespace Picto
 {
@@ -18,12 +19,7 @@ namespace Picto
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-            var newForm = new Home();
-            newForm.Show();
-            this.Hide();
-        }
+        
 
         private void btn1_Click(object sender, EventArgs e)
         {
@@ -46,8 +42,10 @@ namespace Picto
         }
 
         private void picquerer_Click(object sender, EventArgs e)
-        {          
-
+        {
+            var newformnoquerer  = new FormularioNoQuerer();
+            newformnoquerer.Show();
+            this.Hide();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -60,6 +58,41 @@ namespace Picto
         private void vozopictograma_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            var newformcolores = new FormularioColores();
+                newformcolores.Show();
+            this.Hide();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            var newformcomunicacion = new FormularioComunicacion();
+            newformcomunicacion.Show();
+            this.Hide();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            var newformnumeros = new FormularioNumeros();
+            newformnumeros.Show();
+            this.Hide();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            var newformquerer = new FormularioQuerer();
+            newformquerer.Show();
+            this.Hide();
+        }
+
+        private void pictureBoxSentimientos_Click(object sender, EventArgs e)
+        {
+            var newformsentimientos = new FormularioSentimientos();
+            newformsentimientos.Show();
+            this.Hide();
         }
     }
 }

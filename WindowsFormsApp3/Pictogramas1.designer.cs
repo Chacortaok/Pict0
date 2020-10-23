@@ -30,24 +30,21 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(vozopictograma));
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.picquerer = new System.Windows.Forms.PictureBox();
+            this.pictureBoxNoQuerer = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.picquerer)).BeginInit();
+            this.pictureBoxComunicacion = new System.Windows.Forms.PictureBox();
+            this.pictureBoxColores = new System.Windows.Forms.PictureBox();
+            this.pictureBoxNumeros = new System.Windows.Forms.PictureBox();
+            this.pictureBoxQuerer = new System.Windows.Forms.PictureBox();
+            this.pictureBoxSentimientos = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNoQuerer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxComunicacion)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxColores)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNumeros)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxQuerer)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSentimientos)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
@@ -59,78 +56,6 @@
             this.textBox1.ShortcutsEnabled = false;
             this.textBox1.Size = new System.Drawing.Size(1406, 476);
             this.textBox1.TabIndex = 2;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(207, 166);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(114, 127);
-            this.textBox3.TabIndex = 3;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(370, 166);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(120, 127);
-            this.textBox4.TabIndex = 3;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(533, 166);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(115, 127);
-            this.textBox5.TabIndex = 3;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(696, 166);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(114, 127);
-            this.textBox6.TabIndex = 3;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(859, 166);
-            this.textBox7.Multiline = true;
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(123, 127);
-            this.textBox7.TabIndex = 3;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(1022, 166);
-            this.textBox8.Multiline = true;
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(116, 127);
-            this.textBox8.TabIndex = 3;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(1510, 166);
-            this.textBox9.Multiline = true;
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(116, 127);
-            this.textBox9.TabIndex = 3;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(1347, 166);
-            this.textBox10.Multiline = true;
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(114, 127);
-            this.textBox10.TabIndex = 3;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(1185, 166);
-            this.textBox11.Multiline = true;
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(113, 127);
-            this.textBox11.TabIndex = 3;
             // 
             // button1
             // 
@@ -144,80 +69,118 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // picquerer
+            // pictureBoxNoQuerer
             // 
-            this.picquerer.Image = ((System.Drawing.Image)(resources.GetObject("picquerer.Image")));
-            this.picquerer.InitialImage = null;
-            this.picquerer.Location = new System.Drawing.Point(45, 166);
-            this.picquerer.Name = "picquerer";
-            this.picquerer.Size = new System.Drawing.Size(127, 127);
-            this.picquerer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picquerer.TabIndex = 5;
-            this.picquerer.TabStop = false;
-            this.picquerer.Click += new System.EventHandler(this.picquerer_Click);
+            this.pictureBoxNoQuerer.Image = global::WindowsFormsApp3.Properties.Resources.AAA_NO_QUIERO;
+            this.pictureBoxNoQuerer.InitialImage = null;
+            this.pictureBoxNoQuerer.Location = new System.Drawing.Point(1152, 235);
+            this.pictureBoxNoQuerer.Name = "pictureBoxNoQuerer";
+            this.pictureBoxNoQuerer.Size = new System.Drawing.Size(127, 127);
+            this.pictureBoxNoQuerer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxNoQuerer.TabIndex = 5;
+            this.pictureBoxNoQuerer.TabStop = false;
+            this.pictureBoxNoQuerer.Click += new System.EventHandler(this.picquerer_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, -1);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(185, 145);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.Size = new System.Drawing.Size(134, 171);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // pictureBox2
+            // pictureBoxComunicacion
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(-10, -23);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(2096, 1082);
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
+            this.pictureBoxComunicacion.Image = global::WindowsFormsApp3.Properties.Resources.AAA_COMUNICACIÓN;
+            this.pictureBoxComunicacion.InitialImage = null;
+            this.pictureBoxComunicacion.Location = new System.Drawing.Point(654, 235);
+            this.pictureBoxComunicacion.Name = "pictureBoxComunicacion";
+            this.pictureBoxComunicacion.Size = new System.Drawing.Size(127, 127);
+            this.pictureBoxComunicacion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxComunicacion.TabIndex = 9;
+            this.pictureBoxComunicacion.TabStop = false;
+            this.pictureBoxComunicacion.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
-            // pictureBox3
+            // pictureBoxColores
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(1869, -33);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(78, 1075);
-            this.pictureBox3.TabIndex = 8;
-            this.pictureBox3.TabStop = false;
+            this.pictureBoxColores.Image = global::WindowsFormsApp3.Properties.Resources.AAA_COLORES;
+            this.pictureBoxColores.InitialImage = null;
+            this.pictureBoxColores.Location = new System.Drawing.Point(488, 235);
+            this.pictureBoxColores.Name = "pictureBoxColores";
+            this.pictureBoxColores.Size = new System.Drawing.Size(127, 127);
+            this.pictureBoxColores.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxColores.TabIndex = 10;
+            this.pictureBoxColores.TabStop = false;
+            this.pictureBoxColores.Click += new System.EventHandler(this.pictureBox5_Click);
+            // 
+            // pictureBoxNumeros
+            // 
+            this.pictureBoxNumeros.Image = global::WindowsFormsApp3.Properties.Resources.AAA_NUMEROS;
+            this.pictureBoxNumeros.InitialImage = null;
+            this.pictureBoxNumeros.Location = new System.Drawing.Point(820, 235);
+            this.pictureBoxNumeros.Name = "pictureBoxNumeros";
+            this.pictureBoxNumeros.Size = new System.Drawing.Size(127, 127);
+            this.pictureBoxNumeros.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxNumeros.TabIndex = 11;
+            this.pictureBoxNumeros.TabStop = false;
+            this.pictureBoxNumeros.Click += new System.EventHandler(this.pictureBox6_Click);
+            // 
+            // pictureBoxQuerer
+            // 
+            this.pictureBoxQuerer.Image = global::WindowsFormsApp3.Properties.Resources.AAA_SI_QUIERO;
+            this.pictureBoxQuerer.InitialImage = null;
+            this.pictureBoxQuerer.Location = new System.Drawing.Point(986, 235);
+            this.pictureBoxQuerer.Name = "pictureBoxQuerer";
+            this.pictureBoxQuerer.Size = new System.Drawing.Size(127, 127);
+            this.pictureBoxQuerer.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxQuerer.TabIndex = 12;
+            this.pictureBoxQuerer.TabStop = false;
+            this.pictureBoxQuerer.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // pictureBoxSentimientos
+            // 
+            this.pictureBoxSentimientos.Image = global::WindowsFormsApp3.Properties.Resources.AAA_SENTIMIENTOS;
+            this.pictureBoxSentimientos.InitialImage = null;
+            this.pictureBoxSentimientos.Location = new System.Drawing.Point(1318, 235);
+            this.pictureBoxSentimientos.Name = "pictureBoxSentimientos";
+            this.pictureBoxSentimientos.Size = new System.Drawing.Size(127, 127);
+            this.pictureBoxSentimientos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxSentimientos.TabIndex = 13;
+            this.pictureBoxSentimientos.TabStop = false;
+            this.pictureBoxSentimientos.Click += new System.EventHandler(this.pictureBoxSentimientos_Click);
             // 
             // vozopictograma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(203)))), ((int)(((byte)(193)))));
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1892, 1041);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.picquerer);
+            this.Controls.Add(this.pictureBoxSentimientos);
+            this.Controls.Add(this.pictureBoxQuerer);
+            this.Controls.Add(this.pictureBoxNumeros);
+            this.Controls.Add(this.pictureBoxColores);
+            this.Controls.Add(this.pictureBoxComunicacion);
+            this.Controls.Add(this.pictureBoxNoQuerer);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "vozopictograma";
             this.Text = "Picto";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.vozopictograma_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.picquerer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNoQuerer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxComunicacion)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxColores)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNumeros)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxQuerer)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSentimientos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -226,19 +189,13 @@
         #endregion
 
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox picquerer;
+        private System.Windows.Forms.PictureBox pictureBoxNoQuerer;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBoxComunicacion;
+        private System.Windows.Forms.PictureBox pictureBoxColores;
+        private System.Windows.Forms.PictureBox pictureBoxNumeros;
+        private System.Windows.Forms.PictureBox pictureBoxQuerer;
+        private System.Windows.Forms.PictureBox pictureBoxSentimientos;
     }
 }

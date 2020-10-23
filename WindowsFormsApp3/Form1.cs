@@ -71,17 +71,8 @@ namespace Picto
             this.Hide();
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            // hora de Actual utiliza el DataTime de la PC. 
-            // Lo hizo Tomas 
-            hora.Text = DateTime.Now.ToLongTimeString();
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
+       
+        
         // btn test if the connection is OK
         private void btnTest_Click(object sender, EventArgs e)
         {
@@ -111,10 +102,7 @@ namespace Picto
             }
         }
 
-        private void pictureBox1_Click_1(object sender, EventArgs e)
-        {
-
-        }
+      
         // btn test if the connection is OK
     }
 }
