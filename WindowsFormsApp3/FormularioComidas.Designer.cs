@@ -62,7 +62,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F);
+            this.textBox1.Font = new System.Drawing.Font("Open-Dyslexic", 20F);
             this.textBox1.Location = new System.Drawing.Point(252, 531);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -158,7 +158,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::WindowsFormsApp3.Properties.Resources.FONDOO_1__1_;
+            this.BackgroundImage = global::WindowsFormsApp3.Properties.Resources.FONDOO_1;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);

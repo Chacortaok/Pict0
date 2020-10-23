@@ -603,9 +603,29 @@ namespace WindowsFormsApp3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FONDOO_1 {
+            get {
+                object obj = ResourceManager.GetObject("FONDOO_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FONDOO_1__1_ {
             get {
                 object obj = ResourceManager.GetObject("FONDOO_1 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap FONDOO_11 {
+            get {
+                object obj = ResourceManager.GetObject("FONDOO_11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

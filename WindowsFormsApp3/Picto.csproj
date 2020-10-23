@@ -527,5 +527,11 @@
   <ItemGroup>
     <None Include="Resources\caca.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FONDOO_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FONDOO_11.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
