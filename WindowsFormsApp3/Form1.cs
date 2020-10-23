@@ -16,7 +16,6 @@ namespace Picto
 {
     public partial class Home : Form
     {
-        OleDbConnection cn = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0 Data Source =BaseDataPicto.accdb");
         public static void ReadData(string connectionString, string queryString)
         {
             using (OleDbConnection connection = new OleDbConnection(connectionString))
@@ -34,8 +33,7 @@ namespace Picto
             }
         }
         // Creacion de la Conexion 
-
-
+        OleDbConnection cn = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0 Data Source =BaseDataPicto.accdb");
         // Conexion llamada cn; 
         private void _OpenConnection()
         {
@@ -66,7 +64,7 @@ namespace Picto
         {
 
         }
-        private void btnConfi_Click(object sender, EventArgs e)
+        private void btnConfi_Click (object sender, EventArgs e)
         {
             var C = new Configuracion();
             C.Show();
@@ -76,27 +74,32 @@ namespace Picto
        
         
         // btn test if the connection is OK
-
-
         private void btnTest_Click(object sender, EventArgs e)
         {
             if (cn != null)
             {
                 MessageBox.Show("Conexion Correcta PAPUUU");
             }
+            {
+                using (())
+                {
+                    OleDbCommand and = new OleDbCommand();
+                    cn.Open();
+                    and.Connection = cn;
+                    and.CommandText = "SELECT Image FROM Table1 WHERE IDhere= 1 ";
+                    OleDbDataReader read = and.ExecuteReader();
+                    while (read.Read())
+                    {
+                        var bytes = (byte[])read[4];
+                        using (MemoryStream ms = new MemoryStream(bytes))
+                        {
+                            pictureBox1.Image = Image.FromStream(ms);
+                        }
+                    }
 
-            OleDbCommand da = new OleDbCommand("SELECT Campo1 FROM Table1 WHERE Id = 1");
-                DataSet ds = new DataSet("Table1");
-                
- 
-                
-                 byte[] Misdatos = new byte[0]; 
-                 DataRow myRow = ds.Tables["Table1"].Rows[0];
-                 Misdatos = (byte[])myRow["Campo1"];
-                 MemoryStream ms = new MemoryStream(Misdatos);
-                 pictureBox1.Image = Image.FromStream(ms);
-            
-            
+                    cn.Close();
+                }
+            }
         }
 
       
