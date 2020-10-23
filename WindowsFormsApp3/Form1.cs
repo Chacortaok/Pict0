@@ -10,64 +10,41 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using WindowsFormsApp3;
 using System.Data.OleDb;
+using System.IO;
 
 namespace Picto
 {
     public partial class Home : Form
     {
-        public void ReadMyData(string connectionString)
+        public static void ReadData(string connectionString, string queryString)
         {
-            string queryString = "SELECT * FROM Table1";
             using (OleDbConnection connection = new OleDbConnection(connectionString))
             {
                 OleDbCommand command = new OleDbCommand(queryString, connection);
+
                 connection.Open();
                 OleDbDataReader reader = command.ExecuteReader();
 
                 while (reader.Read())
                 {
-                    Console.WriteLine(reader.GetInt32(0) + ", " + reader.GetString(1));
+                    Console.WriteLine(reader[0].ToString());
                 }
-                // always call Close when done reading.
                 reader.Close();
             }
         }
-
-
         // Creacion de la Conexion 
         OleDbConnection cn = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0 Data Source =BaseDataPicto.accdb");
         // Conexion llamada cn; 
-
-        //
-        public void InsertRow(string connectionString, string insertSQL)
+        private void _OpenConnection()
         {
-            using (OleDbConnection connection = new OleDbConnection(connectionString))
-            {
-                // The insertSQL string contains a SQL statement that
-                // inserts a new row in the source table.
-                OleDbCommand command = new OleDbCommand(insertSQL);
-
-                // Set the Connection to the new OleDbConnection.
-                command.Connection = connection;
-
-                // Open the connection and execute the insert command.
-                try
-                {
-                    connection.Open();
-                    command.ExecuteNonQuery();
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine(ex.Message);
-                }
-                // The connection is automatically closed when the
-                // code exits the using block.
-            }
+            cn.Open();
         }
-            //
-
-
-            public Home()
+        private void _CloseConnection()
+        {
+            cn.Close();
+        }
+        // Open and close connection with Base Data 
+        public Home()
         {
             InitializeComponent();
         }
@@ -105,7 +82,40 @@ namespace Picto
         {
 
         }
-    
+        // btn test if the connection is OK
+        private void btnTest_Click(object sender, EventArgs e)
+        {
+            if (cn != null)
+            {
+                MessageBox.Show("Conexion Correcta PAPUUU");
+            }
+            {
+                using (())
+                {
+                    OleDbCommand and = new OleDbCommand();
+                    cn.Open();
+                    and.Connection = cn;
+                    and.CommandText = "SELECT Image FROM Table1 WHERE IDhere= 1 ";
+                    OleDbDataReader read = and.ExecuteReader();
+                    while (read.Read())
+                    {
+                        var bytes = (byte[])read[4];
+                        using (MemoryStream ms = new MemoryStream(bytes))
+                        {
+                            pictureBox1.Image = Image.FromStream(ms);
+                        }
+                    }
+
+                    cn.Close();
+                }
+            }
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+        // btn test if the connection is OK
     }
 }
 // Variable Global 
