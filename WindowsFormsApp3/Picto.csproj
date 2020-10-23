@@ -73,12 +73,6 @@
       <DependentUpon>BaseDataPictoDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Categoria.cs" />
-    <Compile Include="Configuracion.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Configuracion.Designer.cs">
-      <DependentUpon>Configuracion.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -139,12 +133,6 @@
     <Compile Include="FormularioSentimientos.Designer.cs">
       <DependentUpon>FormularioSentimientos.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormularioTransportes.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormularioTransportes.Designer.cs">
-      <DependentUpon>FormularioTransportes.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Pictogramas1.cs">
@@ -153,9 +141,6 @@
     <Compile Include="Pictogramas1.designer.cs">
       <DependentUpon>Pictogramas1.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Configuracion.resx">
-      <DependentUpon>Configuracion.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -185,9 +170,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormularioSentimientos.resx">
       <DependentUpon>FormularioSentimientos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormularioTransportes.resx">
-      <DependentUpon>FormularioTransportes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

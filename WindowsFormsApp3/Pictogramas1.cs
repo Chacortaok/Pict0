@@ -13,7 +13,7 @@ namespace Picto
 {
     public partial class vozopictograma : Form
     {
-        String texto; 
+        
         public vozopictograma()
         {
             InitializeComponent();

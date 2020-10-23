@@ -13,11 +13,13 @@ namespace WindowsFormsApp3
 {
     public partial class FormularioColores : Form
     {
+
         SpeechSynthesizer speak = new SpeechSynthesizer();
         public FormularioColores()
         {
             InitializeComponent();
         }
+
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {

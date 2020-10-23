@@ -26,16 +26,12 @@ namespace WindowsFormsApp3
             var newForm = new Home();
             newForm.Show();
             this.Hide();
-        }
-
-        private void FormularioNumeros_Load(object sender, EventArgs e)
-        {
-            
+            MyGlobals.Texto = "";
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            MyGlobals.Texto = "Dos";
+            MyGlobals.Texto = MyGlobals.Texto + "Dos";
             textBox1.Text = MyGlobals.Texto;
             speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
@@ -55,10 +51,7 @@ namespace WindowsFormsApp3
             this.Hide();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-            speak.Speak(textBox1.Text);
-        }
+        
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {

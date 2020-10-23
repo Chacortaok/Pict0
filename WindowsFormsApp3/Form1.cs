@@ -64,12 +64,7 @@ namespace Picto
         {
 
         }
-        private void btnConfi_Click (object sender, EventArgs e)
-        {
-            var C = new Configuracion();
-            C.Show();
-            this.Hide();
-        }
+        
 
        
         
