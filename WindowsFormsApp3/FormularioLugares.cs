@@ -94,7 +94,7 @@ namespace WindowsFormsApp3
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            MyGlobals.Texto = MyGlobals.Texto + "yo quiero ir a una pizzeria";
+            MyGlobals.Texto = MyGlobals.Texto + "a una pizzeria";
             textBox1.Text = MyGlobals.Texto;
             speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";

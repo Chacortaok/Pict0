@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Picto", "WindowsFormsApp3\Picto.csproj", "{939B6413-8A53-441E-8D27-647E25ABBCBB}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{8D123AB7-E043-4B92-B7BD-74AB45ADF687}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PictoSetUp", "PictoSetUp\PictoSetUp.vdproj", "{10EA6DF2-30F1-45E5-B70F-28130AB7697E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{939B6413-8A53-441E-8D27-647E25ABBCBB}.Debug|Any CPU.Build.0 = Release|Any CPU
 		{939B6413-8A53-441E-8D27-647E25ABBCBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{939B6413-8A53-441E-8D27-647E25ABBCBB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8D123AB7-E043-4B92-B7BD-74AB45ADF687}.Debug|Any CPU.ActiveCfg = Debug
-		{8D123AB7-E043-4B92-B7BD-74AB45ADF687}.Release|Any CPU.ActiveCfg = Release
+		{10EA6DF2-30F1-45E5-B70F-28130AB7697E}.Debug|Any CPU.ActiveCfg = Debug
+		{10EA6DF2-30F1-45E5-B70F-28130AB7697E}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
