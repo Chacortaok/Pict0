@@ -115,12 +115,6 @@
     <Compile Include="FormularioLugares.Designer.cs">
       <DependentUpon>FormularioLugares.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormularioNoQuerer.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormularioNoQuerer.Designer.cs">
-      <DependentUpon>FormularioNoQuerer.cs</DependentUpon>
-    </Compile>
     <Compile Include="FormularioNumeros.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -179,9 +173,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormularioLugares.resx">
       <DependentUpon>FormularioLugares.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="FormularioNoQuerer.resx">
-      <DependentUpon>FormularioNoQuerer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormularioNumeros.resx">
       <DependentUpon>FormularioNumeros.cs</DependentUpon>
@@ -550,6 +541,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\JOYAS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caca.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

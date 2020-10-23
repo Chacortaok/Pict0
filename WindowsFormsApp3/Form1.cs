@@ -81,7 +81,7 @@ namespace Picto
                 MessageBox.Show("Conexion Correcta PAPUUU");
             }
             {
-                using (())
+              //  using (())
                 {
                     OleDbCommand and = new OleDbCommand();
                     cn.Open();

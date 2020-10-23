@@ -43,9 +43,10 @@ namespace Picto
 
         private void picquerer_Click(object sender, EventArgs e)
         {
-            var newformnoquerer  = new FormularioNoQuerer();
-            newformnoquerer.Show();
+            var newformquerer = new FormularioQuerer();
+            newformquerer.Show();
             this.Hide();
+            MyGlobals.Texto = "Yo no quiero ";
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -86,6 +87,7 @@ namespace Picto
             var newformquerer = new FormularioQuerer();
             newformquerer.Show();
             this.Hide();
+            MyGlobals.Texto = "Yo quiero ";
         }
 
         private void pictureBoxSentimientos_Click(object sender, EventArgs e)
@@ -93,6 +95,7 @@ namespace Picto
             var newformsentimientos = new FormularioSentimientos();
             newformsentimientos.Show();
             this.Hide();
+            MyGlobals.Texto = "Yo me siento "; 
         }
     }
 }

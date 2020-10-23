@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Home));
             this.btn2 = new System.Windows.Forms.Button();
-            this.btnConfi = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.btnTest = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -53,29 +52,19 @@
             this.btn2.UseVisualStyleBackColor = false;
             this.btn2.Click += new System.EventHandler(this.btn2_Click);
             // 
-            // btnConfi
-            // 
-            this.btnConfi.Location = new System.Drawing.Point(12, 937);
-            this.btnConfi.Name = "btnConfi";
-            this.btnConfi.Size = new System.Drawing.Size(100, 23);
-            this.btnConfi.TabIndex = 2;
-            this.btnConfi.Text = "Configuracion";
-            this.btnConfi.UseVisualStyleBackColor = true;
-            this.btnConfi.Click += new System.EventHandler(this.btnConfi_Click);
-            // 
             // timer1
             // 
             this.timer1.Enabled = true;
-            
             // 
             // btnTest
             // 
-            this.btnTest.Location = new System.Drawing.Point(12, 94);
+            this.btnTest.Location = new System.Drawing.Point(12, 12);
             this.btnTest.Name = "btnTest";
             this.btnTest.Size = new System.Drawing.Size(75, 23);
             this.btnTest.TabIndex = 5;
             this.btnTest.Text = "TEST";
             this.btnTest.UseVisualStyleBackColor = true;
+            this.btnTest.Visible = false;
             this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
             // 
             // pictureBox1
@@ -87,7 +76,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(391, 168);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
-            
             // 
             // Home
             // 
@@ -99,7 +87,6 @@
             this.ClientSize = new System.Drawing.Size(1904, 972);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnTest);
-            this.Controls.Add(this.btnConfi);
             this.Controls.Add(this.btn2);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -115,7 +102,6 @@
 
         #endregion
         private System.Windows.Forms.Button btn2;
-        private System.Windows.Forms.Button btnConfi;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Button btnTest;
         private System.Windows.Forms.PictureBox pictureBox1;
