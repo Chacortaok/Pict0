@@ -37,6 +37,7 @@
             this.pictureBoxNumeros = new System.Windows.Forms.PictureBox();
             this.pictureBoxQuerer = new System.Windows.Forms.PictureBox();
             this.pictureBoxSentimientos = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNoQuerer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxComunicacion)).BeginInit();
@@ -44,11 +45,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNumeros)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxQuerer)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSentimientos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("Open-Dyslexic", 20F);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             this.textBox1.Location = new System.Drawing.Point(252, 531);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
@@ -140,6 +142,16 @@
             this.pictureBoxSentimientos.TabStop = false;
             this.pictureBoxSentimientos.Click += new System.EventHandler(this.pictureBoxSentimientos_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(1510, 51);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(358, 409);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 14;
+            this.pictureBox2.TabStop = false;
+            // 
             // vozopictograma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -147,6 +159,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(203)))), ((int)(((byte)(193)))));
             this.BackgroundImage = global::WindowsFormsApp3.Properties.Resources.FONDOO_11;
             this.ClientSize = new System.Drawing.Size(1892, 1041);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBoxSentimientos);
             this.Controls.Add(this.pictureBoxQuerer);
             this.Controls.Add(this.pictureBoxNumeros);
@@ -168,6 +181,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxNumeros)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxQuerer)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxSentimientos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -183,5 +197,6 @@
         private System.Windows.Forms.PictureBox pictureBoxNumeros;
         private System.Windows.Forms.PictureBox pictureBoxQuerer;
         private System.Windows.Forms.PictureBox pictureBoxSentimientos;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
