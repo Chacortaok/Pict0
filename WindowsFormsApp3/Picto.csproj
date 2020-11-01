@@ -79,6 +79,36 @@
     <Compile Include="Form1.designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormExtra1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExtra1.Designer.cs">
+      <DependentUpon>FormExtra1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExtra2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExtra2.Designer.cs">
+      <DependentUpon>FormExtra2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExtra3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExtra3.Designer.cs">
+      <DependentUpon>FormExtra3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExtra4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExtra4.Designer.cs">
+      <DependentUpon>FormExtra4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormExtra5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormExtra5.Designer.cs">
+      <DependentUpon>FormExtra5.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormularioColores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +173,21 @@
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExtra1.resx">
+      <DependentUpon>FormExtra1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExtra2.resx">
+      <DependentUpon>FormExtra2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExtra3.resx">
+      <DependentUpon>FormExtra3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExtra4.resx">
+      <DependentUpon>FormExtra4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormExtra5.resx">
+      <DependentUpon>FormExtra5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormularioColores.resx">
       <DependentUpon>FormularioColores.cs</DependentUpon>

@@ -97,5 +97,42 @@ namespace Picto
             this.Hide();
             MyGlobals.Texto = "Yo me siento "; 
         }
+
+        private void pictureBox6_Click_1(object sender, EventArgs e)
+        {
+            var newformextra1 = new FormExtra1();
+            newformextra1.Show();
+            this.Hide();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            var newformextra2 = new FormExtra2();
+            newformextra2.Show();
+            this.Hide();
+        }
+
+        private void pictureBox5_Click_1(object sender, EventArgs e)
+        {
+            var newformextra3 = new FormExtra3();
+            newformextra3.Show();
+            this.Hide();
+        }
+
+        private void pictureBox4_Click_1(object sender, EventArgs e)
+        {
+            var newformextra4 = new FormExtra4();
+            newformextra4.Show();
+            this.Hide();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            var newformextra5 = new FormExtra5();
+            newformextra5.Show();
+            this.Hide();
+        }
+
+        
     }
 }
