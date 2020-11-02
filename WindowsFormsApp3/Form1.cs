@@ -33,7 +33,7 @@ namespace Picto
             }
         }
         // Creacion de la Conexion 
-        OleDbConnection cn = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0 Data Source =BaseDataPicto.accdb");
+        OleDbConnection cn = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Tomas\Documents\GitHub\Pict0\WindowsFormsApp3\bin\Debug\BaseDataPicto.accdb");
         // Conexion llamada cn; 
         private void _OpenConnection()
         {

@@ -29,7 +29,7 @@
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -39,7 +39,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x64</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -67,10 +67,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseDataPictoDataSet.Designer.cs">
+    <Compile Include="BaseDataPictoS.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>BaseDataPictoDataSet.xsd</DependentUpon>
+      <DependentUpon>BaseDataPictoS.xsd</DependentUpon>
     </Compile>
     <Compile Include="Categoria.cs" />
     <Compile Include="Form1.cs">
@@ -229,16 +229,16 @@
     <EmbeddedResource Include="Pictogramas1.resx">
       <DependentUpon>Pictogramas1.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="BaseDataPictoDataSet.xsc">
-      <DependentUpon>BaseDataPictoDataSet.xsd</DependentUpon>
+    <None Include="BaseDataPictoS.xsc">
+      <DependentUpon>BaseDataPictoS.xsd</DependentUpon>
     </None>
-    <None Include="BaseDataPictoDataSet.xsd">
+    <None Include="BaseDataPictoS.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>BaseDataPictoDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>BaseDataPictoS.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="BaseDataPictoDataSet.xss">
-      <DependentUpon>BaseDataPictoDataSet.xsd</DependentUpon>
+    <None Include="BaseDataPictoS.xss">
+      <DependentUpon>BaseDataPictoS.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

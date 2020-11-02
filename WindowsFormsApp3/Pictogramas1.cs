@@ -8,6 +8,9 @@ using System.Windows.Forms;
 using System.Speech.Synthesis;
 using WindowsFormsApp3;
 using Picto;
+using System.Data.OleDb;
+using System.Configuration;
+using System.IO;
 
 namespace Picto
 {
@@ -19,8 +22,17 @@ namespace Picto
             InitializeComponent();
         }
 
-        
 
+        //declar cada funcion
+        OleDbConnection cn = new OleDbConnection();
+        OleDbCommand cmd = new OleDbCommand();
+        OleDbDataAdapter da = new OleDbDataAdapter();
+        DataSet DataSet = new DataSet();
+        MemoryStream ms = new MemoryStream();
+       // OleDbConnectionStringBuilder builder = new OleDbConnectionStringBuilder();
+
+
+        //
         private void btn1_Click(object sender, EventArgs e)
         {
 
@@ -58,6 +70,8 @@ namespace Picto
 
         private void vozopictograma_Load(object sender, EventArgs e)
         {
+            
+
 
         }
 
@@ -133,6 +147,23 @@ namespace Picto
             this.Hide();
         }
 
-        
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            OleDbConnection con = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0 Data Source = BaseDataPicto.accdb");
+            con.Open();
+            OleDbCommand cmd = new OleDbCommand("select Id, Nombre from Tabla1", con);
+            OleDbDataReader rd = cmd.ExecuteReader();
+
+            ///
+            DataTable dt = new DataTable();
+            dt.Load(rd);
+            con.Close();
+            dataGridView1.DataSource = dt;
+        }
     }
 }
