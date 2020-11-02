@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 using System.Speech.Synthesis;
 using WindowsFormsApp3;
-using Picto;
 using System.Data.OleDb;
-using System.Configuration;
 using System.IO;
+using System.Runtime.Serialization.Formatters.Binary;
 
 namespace Picto
 {
@@ -70,7 +66,8 @@ namespace Picto
 
         private void vozopictograma_Load(object sender, EventArgs e)
         {
-    
+            
+
 
         }
 
@@ -150,21 +147,54 @@ namespace Picto
         {
 
         }
+        
 
+        public Image byteArrayToImage(byte[] byteArrayIn)
+        {
+
+
+            Bitmap newBitmap;
+            using (MemoryStream memoryStream = new MemoryStream(byteArrayIn))
+            using (Image newImage = Image.FromStream(memoryStream))
+                newBitmap = new Bitmap(newImage);
+            return newBitmap;
+        }
+
+        byte[] ObjectToByteArray(object obj)
+        {
+            if (obj == null)
+                return null;
+            BinaryFormatter bf = new BinaryFormatter();
+            using (MemoryStream ms = new MemoryStream())
+            {
+                bf.Serialize(ms, obj);
+                return ms.ToArray();
+            }
+        }
         private void button1_Click_1(object sender, EventArgs e)
         {
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
-            OleDbDataAdapter da;
-
+            
+            
             con.Open();
-            OleDbCommand cmd = new OleDbCommand("select Id, Nombre from Tabla1", con);
+            OleDbCommand cmd = new OleDbCommand("SELECT Imagen FROM Tabla1 where Id = 2", con);
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            da.Fill(ds, "pp");
+
+
+
             OleDbDataReader rd = cmd.ExecuteReader();
 
-            ///
-            DataTable dt = new DataTable();
-            dt.Load(rd);
-            con.Close();
-            dataGridView1.DataSource = dt;
+
+                
+                byte[] a = ObjectToByteArray(rd[1]);
+                Bitmap aaa = (Bitmap)byteArrayToImage(a);
+                pictureBox7.Image = aaa;
+                
+                
+            
         }
+
     }
 }
