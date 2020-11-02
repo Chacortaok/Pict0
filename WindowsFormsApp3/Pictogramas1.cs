@@ -154,7 +154,7 @@ namespace Picto
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            OleDbConnection con = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0 Data Source = BaseDataPicto.accdb");
+            OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
             con.Open();
             OleDbCommand cmd = new OleDbCommand("select Id, Nombre from Tabla1", con);
             OleDbDataReader rd = cmd.ExecuteReader();
