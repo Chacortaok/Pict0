@@ -35,6 +35,7 @@
             this.btnTest = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnConfi = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -88,6 +89,16 @@
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
             // 
+            // btnConfi
+            // 
+            this.btnConfi.Location = new System.Drawing.Point(12, 937);
+            this.btnConfi.Name = "btnConfi";
+            this.btnConfi.Size = new System.Drawing.Size(96, 23);
+            this.btnConfi.TabIndex = 8;
+            this.btnConfi.Text = "Configuracion";
+            this.btnConfi.UseVisualStyleBackColor = true;
+            this.btnConfi.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -96,6 +107,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1904, 972);
+            this.Controls.Add(this.btnConfi);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnTest);
@@ -120,6 +132,7 @@
         private System.Windows.Forms.Button btnTest;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btnConfi;
     }
 }
 

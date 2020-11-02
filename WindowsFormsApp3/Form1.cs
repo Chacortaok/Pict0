@@ -97,7 +97,14 @@ namespace Picto
             }
         }
 
-      
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var FormConfi = new Configuracion_Picto();
+            FormConfi.Show();
+            this.Hide();
+        }
+
+
         // btn test if the connection is OK
     }
 }

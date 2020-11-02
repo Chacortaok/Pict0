@@ -177,7 +177,7 @@ namespace Picto
             
             
             con.Open();
-            OleDbCommand cmd = new OleDbCommand("SELECT Imagen FROM Tabla1 where Id = 2", con);
+            OleDbCommand cmd = new OleDbCommand("SELECT Imagen FROM Tabla1 ", con);
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
             DataSet ds = new DataSet();
             da.Fill(ds, "pp");
@@ -188,7 +188,7 @@ namespace Picto
 
 
                 
-                byte[] a = ObjectToByteArray(rd[1]);
+                byte[] a = ObjectToByteArray(rd[0]);
                 Bitmap aaa = (Bitmap)byteArrayToImage(a);
                 pictureBox7.Image = aaa;
                 
