@@ -66,6 +66,7 @@
             this.chkList.Name = "chkList";
             this.chkList.Size = new System.Drawing.Size(210, 169);
             this.chkList.TabIndex = 10;
+            this.chkList.SelectedIndexChanged += new System.EventHandler(this.chkList_SelectedIndexChanged);
             // 
             // btnSave
             // 

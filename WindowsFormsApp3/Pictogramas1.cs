@@ -16,15 +16,19 @@ namespace Picto
         public vozopictograma()
         {
             InitializeComponent();
+            imagen1();
+            imagen2();
+            imagen3();
+            imagen4();
+            imagen5();
+
+
+
         }
 
 
         //declar cada funcion
-        OleDbConnection cn = new OleDbConnection();
-        OleDbCommand cmd = new OleDbCommand();
-        OleDbDataAdapter da = new OleDbDataAdapter();
-        DataSet DataSet = new DataSet();
-        MemoryStream ms = new MemoryStream();
+        
        // OleDbConnectionStringBuilder builder = new OleDbConnectionStringBuilder();
 
 
@@ -110,6 +114,20 @@ namespace Picto
 
         private void pictureBox6_Click_1(object sender, EventArgs e)
         {
+            OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
+
+
+            con.Open();
+            OleDbCommand cmd = new OleDbCommand("SELECT Descripcion FROM FormEx_AA  WHERE Id = 1", con);
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            DataSet ds = new DataSet();
+
+            OleDbDataReader rd = cmd.ExecuteReader();
+
+            rd.Read();
+            string des = rd.GetString(0);
+            MyGlobals.Texto = des;
+
             var newformextra1 = new FormExtra1();
             newformextra1.Show();
             this.Hide();
@@ -117,13 +135,41 @@ namespace Picto
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
+            OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
+
+
+            con.Open();
+            OleDbCommand cmd = new OleDbCommand("SELECT Descripcion FROM FormEx_AA  WHERE Id = 2", con);
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            DataSet ds = new DataSet();
+
+            OleDbDataReader rd = cmd.ExecuteReader();
+
+            rd.Read();
+            string des = rd.GetString(0);
+            MyGlobals.Texto = des;
             var newformextra2 = new FormExtra2();
             newformextra2.Show();
             this.Hide();
+            
+            
         }
 
         private void pictureBox5_Click_1(object sender, EventArgs e)
         {
+            OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
+
+
+            con.Open();
+            OleDbCommand cmd = new OleDbCommand("SELECT Descripcion FROM FormEx_AA  WHERE Id = 3", con);
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            DataSet ds = new DataSet();
+
+            OleDbDataReader rd = cmd.ExecuteReader();
+
+            rd.Read();
+            string des = rd.GetString(0);
+            MyGlobals.Texto = des;
             var newformextra3 = new FormExtra3();
             newformextra3.Show();
             this.Hide();
@@ -131,6 +177,19 @@ namespace Picto
 
         private void pictureBox4_Click_1(object sender, EventArgs e)
         {
+            OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
+
+
+            con.Open();
+            OleDbCommand cmd = new OleDbCommand("SELECT Descripcion FROM FormEx_AA  WHERE Id = 4", con);
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            DataSet ds = new DataSet();
+
+            OleDbDataReader rd = cmd.ExecuteReader();
+
+            rd.Read();
+            string des = rd.GetString(0);
+            MyGlobals.Texto = des;
             var newformextra4 = new FormExtra4();
             newformextra4.Show();
             this.Hide();
@@ -138,6 +197,19 @@ namespace Picto
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
+            OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
+
+
+            con.Open();
+            OleDbCommand cmd = new OleDbCommand("SELECT Descripcion FROM FormEx_AA  WHERE Id = 5", con);
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            DataSet ds = new DataSet();
+
+            OleDbDataReader rd = cmd.ExecuteReader();
+
+            rd.Read();
+            string des = rd.GetString(0);
+            MyGlobals.Texto = des;
             var newformextra5 = new FormExtra5();
             newformextra5.Show();
             this.Hide();
@@ -145,19 +217,139 @@ namespace Picto
 
         
         
-        private void button1_Click_1(object sender, EventArgs e)
+        
+        private void imagen1()
         {
+
+            try { 
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
-            
-            
+
+
             con.Open();
-            OleDbCommand cmd = new OleDbCommand("SELECT Imagen FROM Tabla1 ", con);
+            OleDbCommand cmd = new OleDbCommand("SELECT Ruta FROM FormEx_AA  WHERE Id = 1", con);
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
             DataSet ds = new DataSet();
-            da.Fill(ds, "pp");
+
             OleDbDataReader rd = cmd.ExecuteReader();
-            
+
+            rd.Read();
+            string rut1 = rd.GetString(0);
+
+
+            pictureBox7.Image = Image.FromFile(rut1);
+            }
+            catch
+            {
+                pictureBox7.Visible = false;
+            }
+
         }
+        private void imagen2()
+        {
+            try { 
+            OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
+
+
+            con.Open();
+            OleDbCommand cmd = new OleDbCommand("SELECT Ruta FROM FormEx_AA  WHERE Id = 2", con);
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            DataSet ds = new DataSet();
+
+            OleDbDataReader rd = cmd.ExecuteReader();
+
+            rd.Read();
+            string rut2 = rd.GetString(0);
+
+
+            pictureBox5.Image = Image.FromFile(rut2);
+            }
+            catch
+            {
+                pictureBox5.Visible = false;
+            }
+
+        }
+        private void imagen3()
+        {
+            try { 
+            OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
+
+
+            con.Open();
+            OleDbCommand cmd = new OleDbCommand("SELECT Ruta FROM FormEx_AA  WHERE Id = 3", con);
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            DataSet ds = new DataSet();
+
+            OleDbDataReader rd = cmd.ExecuteReader();
+
+            rd.Read();
+            string rut3 = rd.GetString(0);
+
+
+            pictureBox4.Image = Image.FromFile(rut3);
+            }
+            catch
+            {
+                pictureBox4.Visible = false;
+            }
+        }
+        private void imagen4()
+        {
+            try { 
+            OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
+
+
+            con.Open();
+            OleDbCommand cmd = new OleDbCommand("SELECT Ruta FROM FormEx_AA  WHERE Id = 4", con);
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            DataSet ds = new DataSet();
+
+            OleDbDataReader rd = cmd.ExecuteReader();
+
+            rd.Read();
+            string rut4 = rd.GetString(0);
+
+
+            pictureBox8.Image = Image.FromFile(rut4);
+            }
+            catch
+            {
+                pictureBox8.Visible = false;
+            }
+
+        }
+        private void imagen5()
+        {
+            try { 
+
+            OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
+
+
+            con.Open();
+            OleDbCommand cmd = new OleDbCommand("SELECT Ruta FROM FormEx_AA  WHERE Id = 5", con);
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            DataSet ds = new DataSet();
+
+            OleDbDataReader rd = cmd.ExecuteReader();
+
+            rd.Read();
+            string rut5 = rd.GetString(0);
+             pictureBox6.Image = Image.FromFile(rut5);
+
+
+
+            }
+            catch
+            {
+                pictureBox6.Visible = false;
+            }
+
+
+            
+
+            }
+
+        
 
     }
 }

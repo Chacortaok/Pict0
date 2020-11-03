@@ -148,5 +148,10 @@ namespace WindowsFormsApp3
         {
 
         }
+
+        private void FormularioColores_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

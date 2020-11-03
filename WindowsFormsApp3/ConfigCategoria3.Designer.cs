@@ -75,6 +75,7 @@
             this.btnSave.TabIndex = 15;
             this.btnSave.Text = "Guardar";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click_1);
             // 
             // btnExaminar
             // 
@@ -84,6 +85,7 @@
             this.btnExaminar.TabIndex = 14;
             this.btnExaminar.Text = "Examinar";
             this.btnExaminar.UseVisualStyleBackColor = true;
+            this.btnExaminar.Click += new System.EventHandler(this.btnExaminar_Click_1);
             // 
             // txtRuta
             // 

@@ -20,6 +20,25 @@ namespace WindowsFormsApp3
         private void btnSave_Click(object sender, EventArgs e)
         {
 
+            
+        }
+
+        private void btnExaminar_Click(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        private void btnExaminar_Click_1(object sender, EventArgs e)
+        {
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                txtRuta.Text = openFileDialog1.FileName;
+            }
+        }
+
+        private void btnSave_Click_1(object sender, EventArgs e)
+        {
             if (chkList.GetItemChecked(0))
             {
                 OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
@@ -189,15 +208,6 @@ namespace WindowsFormsApp3
                 txtRuta.Text = "";
                 MessageBox.Show("Guardado Exitoso!!!");
             }
-        }
-
-        private void btnExaminar_Click(object sender, EventArgs e)
-        {
-            if (openFileDialog1.ShowDialog() == DialogResult.OK)
-            {
-                txtRuta.Text = openFileDialog1.FileName;
-            }
-
         }
     }
 }

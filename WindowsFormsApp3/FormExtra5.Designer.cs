@@ -64,6 +64,7 @@
             this.pictureBox10.TabIndex = 31;
             this.pictureBox10.TabStop = false;
             this.pictureBox10.Visible = false;
+            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
             // 
             // pictureBox9
             // 
@@ -75,6 +76,7 @@
             this.pictureBox9.TabIndex = 30;
             this.pictureBox9.TabStop = false;
             this.pictureBox9.Visible = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // pictureBox8
             // 
@@ -86,6 +88,7 @@
             this.pictureBox8.TabIndex = 29;
             this.pictureBox8.TabStop = false;
             this.pictureBox8.Visible = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // pictureBox7
             // 
@@ -97,6 +100,7 @@
             this.pictureBox7.TabIndex = 28;
             this.pictureBox7.TabStop = false;
             this.pictureBox7.Visible = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // pictureBox6
             // 
@@ -108,6 +112,7 @@
             this.pictureBox6.TabIndex = 27;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Visible = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // pictureBox5
             // 
@@ -119,6 +124,7 @@
             this.pictureBox5.TabIndex = 26;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Visible = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
             // 
             // pictureBox4
             // 
@@ -130,6 +136,7 @@
             this.pictureBox4.TabIndex = 24;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Visible = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox3
             // 
@@ -141,6 +148,7 @@
             this.pictureBox3.TabIndex = 25;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Visible = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox2
             // 
@@ -152,6 +160,7 @@
             this.pictureBox2.TabIndex = 23;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Visible = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBoxColores
             // 
@@ -163,6 +172,7 @@
             this.pictureBoxColores.TabIndex = 22;
             this.pictureBoxColores.TabStop = false;
             this.pictureBoxColores.Visible = false;
+            this.pictureBoxColores.Click += new System.EventHandler(this.pictureBoxColores_Click);
             // 
             // textBox1
             // 
@@ -212,6 +222,7 @@
             this.Name = "FormExtra5";
             this.Text = "Picto";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.FormExtra5_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();

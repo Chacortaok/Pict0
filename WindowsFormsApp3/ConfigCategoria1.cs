@@ -205,5 +205,10 @@ namespace WindowsFormsApp3
             }
 
         }
+
+        private void chkList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
