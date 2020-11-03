@@ -34,6 +34,7 @@
             this.btnExaminar = new System.Windows.Forms.Button();
             this.txtRuta = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,7 +62,7 @@
             "Pictograma 8",
             "Pictograma 9",
             "Pictograma 10"});
-            this.chkList.Location = new System.Drawing.Point(515, 40);
+            this.chkList.Location = new System.Drawing.Point(482, 152);
             this.chkList.Name = "chkList";
             this.chkList.Size = new System.Drawing.Size(210, 169);
             this.chkList.TabIndex = 10;
@@ -74,6 +75,7 @@
             this.btnSave.TabIndex = 9;
             this.btnSave.Text = "Guardar";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // btnExaminar
             // 
@@ -83,6 +85,7 @@
             this.btnExaminar.TabIndex = 8;
             this.btnExaminar.Text = "Examinar";
             this.btnExaminar.UseVisualStyleBackColor = true;
+            this.btnExaminar.Click += new System.EventHandler(this.btnExaminar_Click);
             // 
             // txtRuta
             // 
@@ -100,6 +103,10 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 11;
             this.pictureBox1.TabStop = false;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
             // 
             // ConfigCategoria1
             // 
@@ -129,5 +136,6 @@
         private System.Windows.Forms.Button btnExaminar;
         private System.Windows.Forms.TextBox txtRuta;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

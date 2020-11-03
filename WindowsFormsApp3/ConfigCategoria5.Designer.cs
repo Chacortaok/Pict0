@@ -34,6 +34,7 @@
             this.btnExaminar = new System.Windows.Forms.Button();
             this.txtRuta = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,7 +62,7 @@
             "Pictograma 8",
             "Pictograma 9",
             "Pictograma 10"});
-            this.chkList.Location = new System.Drawing.Point(515, 40);
+            this.chkList.Location = new System.Drawing.Point(565, 165);
             this.chkList.Name = "chkList";
             this.chkList.Size = new System.Drawing.Size(210, 169);
             this.chkList.TabIndex = 16;
@@ -101,6 +102,10 @@
             this.pictureBox1.TabIndex = 17;
             this.pictureBox1.TabStop = false;
             // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // ConfigCategoria5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -128,5 +133,6 @@
         private System.Windows.Forms.Button btnExaminar;
         private System.Windows.Forms.TextBox txtRuta;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }
