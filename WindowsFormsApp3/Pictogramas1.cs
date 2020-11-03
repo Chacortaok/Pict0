@@ -143,34 +143,8 @@ namespace Picto
             this.Hide();
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
         
-
-        public Image byteArrayToImage(byte[] byteArrayIn)
-        {
-
-
-            Bitmap newBitmap;
-            using (MemoryStream memoryStream = new MemoryStream(byteArrayIn))
-            using (Image newImage = Image.FromStream(memoryStream))
-                newBitmap = new Bitmap(newImage);
-            return newBitmap;
-        }
-
-        byte[] ObjectToByteArray(object obj)
-        {
-            if (obj == null)
-                return null;
-            BinaryFormatter bf = new BinaryFormatter();
-            using (MemoryStream ms = new MemoryStream())
-            {
-                bf.Serialize(ms, obj);
-                return ms.ToArray();
-            }
-        }
+        
         private void button1_Click_1(object sender, EventArgs e)
         {
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
@@ -181,18 +155,7 @@ namespace Picto
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
             DataSet ds = new DataSet();
             da.Fill(ds, "pp");
-
-
-
             OleDbDataReader rd = cmd.ExecuteReader();
-
-
-                
-                byte[] a = ObjectToByteArray(rd[0]);
-                Bitmap aaa = (Bitmap)byteArrayToImage(a);
-                pictureBox7.Image = aaa;
-                
-                
             
         }
 

@@ -73,6 +73,36 @@
       <DependentUpon>BaseDataPictoS.xsd</DependentUpon>
     </Compile>
     <Compile Include="Categoria.cs" />
+    <Compile Include="ConfigCategoria1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigCategoria1.Designer.cs">
+      <DependentUpon>ConfigCategoria1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigCategoria2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigCategoria2.Designer.cs">
+      <DependentUpon>ConfigCategoria2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigCategoria3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigCategoria3.Designer.cs">
+      <DependentUpon>ConfigCategoria3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigCategoria4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigCategoria4.Designer.cs">
+      <DependentUpon>ConfigCategoria4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConfigCategoria5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConfigCategoria5.Designer.cs">
+      <DependentUpon>ConfigCategoria5.cs</DependentUpon>
+    </Compile>
     <Compile Include="Configuracion_Picto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -177,6 +207,21 @@
     <Compile Include="Pictogramas1.designer.cs">
       <DependentUpon>Pictogramas1.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ConfigCategoria1.resx">
+      <DependentUpon>ConfigCategoria1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigCategoria2.resx">
+      <DependentUpon>ConfigCategoria2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigCategoria3.resx">
+      <DependentUpon>ConfigCategoria3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigCategoria4.resx">
+      <DependentUpon>ConfigCategoria4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigCategoria5.resx">
+      <DependentUpon>ConfigCategoria5.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Configuracion_Picto.resx">
       <DependentUpon>Configuracion_Picto.cs</DependentUpon>
     </EmbeddedResource>
