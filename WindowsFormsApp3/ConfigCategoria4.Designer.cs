@@ -28,19 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConfigCategoria4));
             this.txtDigo = new System.Windows.Forms.TextBox();
             this.chkList = new System.Windows.Forms.CheckedListBox();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnExaminar = new System.Windows.Forms.Button();
             this.txtRuta = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtDigo
@@ -52,7 +53,7 @@
             // 
             // chkList
             // 
-            this.chkList.BackColor = System.Drawing.SystemColors.InactiveBorder;
+            this.chkList.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.chkList.CausesValidation = false;
             this.chkList.FormattingEnabled = true;
             this.chkList.Items.AddRange(new object[] {
@@ -67,7 +68,7 @@
             "Pictograma 8",
             "Pictograma 9",
             "Pictograma 10"});
-            this.chkList.Location = new System.Drawing.Point(515, 40);
+            this.chkList.Location = new System.Drawing.Point(447, 57);
             this.chkList.Name = "chkList";
             this.chkList.Size = new System.Drawing.Size(210, 169);
             this.chkList.TabIndex = 16;
@@ -75,7 +76,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(344, 126);
+            this.btnSave.Location = new System.Drawing.Point(344, 151);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(82, 23);
             this.btnSave.TabIndex = 15;
@@ -95,20 +96,10 @@
             // 
             // txtRuta
             // 
-            this.txtRuta.Location = new System.Drawing.Point(12, 126);
+            this.txtRuta.Location = new System.Drawing.Point(12, 151);
             this.txtRuta.Name = "txtRuta";
             this.txtRuta.Size = new System.Drawing.Size(326, 20);
             this.txtRuta.TabIndex = 13;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::WindowsFormsApp3.Properties.Resources.Espacios_Con_nombre;
-            this.pictureBox1.Location = new System.Drawing.Point(15, 152);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(411, 252);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 17;
-            this.pictureBox1.TabStop = false;
             // 
             // openFileDialog1
             // 
@@ -164,11 +155,39 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(13, 132);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(87, 13);
+            this.label1.TabIndex = 24;
+            this.label1.Text = "Ruta de Archivo:";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label2.Location = new System.Drawing.Point(12, 81);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(63, 13);
+            this.label2.TabIndex = 25;
+            this.label2.Text = "Descripcion";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
             // ConfigCategoria4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
+            this.BackgroundImage = global::WindowsFormsApp3.Properties.Resources.FONDOO_1;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -179,10 +198,9 @@
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnExaminar);
             this.Controls.Add(this.txtRuta);
-            this.Controls.Add(this.pictureBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ConfigCategoria4";
-            this.Text = "ConfigCategoria4";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Text = "Categoria4";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -195,12 +213,13 @@
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnExaminar;
         private System.Windows.Forms.TextBox txtRuta;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
