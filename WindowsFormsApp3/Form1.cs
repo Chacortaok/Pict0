@@ -104,13 +104,15 @@ namespace Picto
             
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void pictureBox3_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("http://www.facebook.com/");
         }
 
 
-        // btn test if the connection is OK
+
+
+        // btn test if the connection is OK 
     }
 }
 // Variable Global 

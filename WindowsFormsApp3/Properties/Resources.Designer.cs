@@ -523,6 +523,16 @@ namespace WindowsFormsApp3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dassada {
+            get {
+                object obj = ResourceManager.GetObject("dassada", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap DESAYUNO {
             get {
                 object obj = ResourceManager.GetObject("DESAYUNO", resourceCulture);
@@ -733,6 +743,16 @@ namespace WindowsFormsApp3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap informationwebcircularbuttonsymbol_79860 {
+            get {
+                object obj = ResourceManager.GetObject("informationwebcircularbuttonsymbol_79860", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap IR_A {
             get {
                 object obj = ResourceManager.GetObject("IR A", resourceCulture);
@@ -926,6 +946,16 @@ namespace WindowsFormsApp3.Properties {
         internal static System.Drawing.Bitmap PLAZA {
             get {
                 object obj = ResourceManager.GetObject("PLAZA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pregunta {
+            get {
+                object obj = ResourceManager.GetObject("pregunta", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -635,5 +635,14 @@
   <ItemGroup>
     <None Include="Resources\Espacios_Con nombre.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pregunta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dassada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\informationwebcircularbuttonsymbol_79860.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
