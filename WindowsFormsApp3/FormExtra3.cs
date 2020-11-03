@@ -57,7 +57,7 @@ namespace WindowsFormsApp3
             textBox1.Text = MyGlobals.Texto;
             speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Home();
+            var newForm = new Picto.vozopictograma();
             newForm.Show();
             this.Hide();
         }
@@ -80,7 +80,7 @@ namespace WindowsFormsApp3
             textBox1.Text = MyGlobals.Texto;
             speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Home();
+            var newForm = new Picto.vozopictograma();
             newForm.Show();
             this.Hide();
         }
@@ -103,7 +103,7 @@ namespace WindowsFormsApp3
             textBox1.Text = MyGlobals.Texto;
             speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Home();
+            var newForm = new Picto.vozopictograma();
             newForm.Show();
             this.Hide();
         }
@@ -126,7 +126,7 @@ namespace WindowsFormsApp3
             textBox1.Text = MyGlobals.Texto;
             speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Home();
+            var newForm = new Picto.vozopictograma();
             newForm.Show();
             this.Hide();
         }
@@ -149,7 +149,7 @@ namespace WindowsFormsApp3
             textBox1.Text = MyGlobals.Texto;
             speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Home();
+            var newForm = new Picto.vozopictograma();
             newForm.Show();
             this.Hide();
         }
@@ -172,7 +172,7 @@ namespace WindowsFormsApp3
             textBox1.Text = MyGlobals.Texto;
             speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Home();
+            var newForm = new Picto.vozopictograma();
             newForm.Show();
             this.Hide();
         }
@@ -195,7 +195,7 @@ namespace WindowsFormsApp3
             textBox1.Text = MyGlobals.Texto;
             speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Home();
+            var newForm = new Picto.vozopictograma();
             newForm.Show();
             this.Hide();
         }
@@ -218,7 +218,7 @@ namespace WindowsFormsApp3
             textBox1.Text = MyGlobals.Texto;
             speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Home();
+            var newForm = new Picto.vozopictograma();
             newForm.Show();
             this.Hide();
         }
@@ -241,7 +241,7 @@ namespace WindowsFormsApp3
             textBox1.Text = MyGlobals.Texto;
             speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Home();
+            var newForm = new Picto.vozopictograma();
             newForm.Show();
             this.Hide();
         }
@@ -269,7 +269,7 @@ namespace WindowsFormsApp3
             textBox1.Text = MyGlobals.Texto;
             speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Home();
+            var newForm = new Picto.vozopictograma();
             newForm.Show();
             this.Hide();
         }

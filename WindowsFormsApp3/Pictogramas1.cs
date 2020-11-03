@@ -118,7 +118,7 @@ namespace Picto
 
 
             con.Open();
-            OleDbCommand cmd = new OleDbCommand("SELECT Descripcion FROM FormEx_AA  WHERE Id = 1", con);
+            OleDbCommand cmd = new OleDbCommand("SELECT Descripcion FROM FormEx_AA  WHERE Id = 5", con);
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
             DataSet ds = new DataSet();
 
@@ -139,7 +139,7 @@ namespace Picto
 
 
             con.Open();
-            OleDbCommand cmd = new OleDbCommand("SELECT Descripcion FROM FormEx_AA  WHERE Id = 2", con);
+            OleDbCommand cmd = new OleDbCommand("SELECT Descripcion FROM FormEx_AA  WHERE Id = 1", con);
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
             DataSet ds = new DataSet();
 
@@ -161,7 +161,7 @@ namespace Picto
 
 
             con.Open();
-            OleDbCommand cmd = new OleDbCommand("SELECT Descripcion FROM FormEx_AA  WHERE Id = 3", con);
+            OleDbCommand cmd = new OleDbCommand("SELECT Descripcion FROM FormEx_AA  WHERE Id = 2", con);
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
             DataSet ds = new DataSet();
 
@@ -181,7 +181,7 @@ namespace Picto
 
 
             con.Open();
-            OleDbCommand cmd = new OleDbCommand("SELECT Descripcion FROM FormEx_AA  WHERE Id = 4", con);
+            OleDbCommand cmd = new OleDbCommand("SELECT Descripcion FROM FormEx_AA  WHERE Id = 3", con);
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
             DataSet ds = new DataSet();
 
@@ -201,7 +201,7 @@ namespace Picto
 
 
             con.Open();
-            OleDbCommand cmd = new OleDbCommand("SELECT Descripcion FROM FormEx_AA  WHERE Id = 5", con);
+            OleDbCommand cmd = new OleDbCommand("SELECT Descripcion FROM FormEx_AA  WHERE Id = 4", con);
             OleDbDataAdapter da = new OleDbDataAdapter(cmd);
             DataSet ds = new DataSet();
 

@@ -38,7 +38,7 @@ namespace WindowsFormsApp3
             if (contador == 1)
             {
                 MyGlobals.Texto = "";
-                var newForm = new Home();
+                var newForm = new Picto.vozopictograma();
                 newForm.Show();
                 this.Hide();
             }
@@ -56,7 +56,7 @@ namespace WindowsFormsApp3
             if (contador == 1)
             {
                 MyGlobals.Texto = "";
-                var newForm = new Home();
+                var newForm = new Picto.vozopictograma();
                 newForm.Show();
                 this.Hide();
             }
@@ -74,7 +74,7 @@ namespace WindowsFormsApp3
             if (contador == 1)
             {
                 MyGlobals.Texto = "";
-                var newForm = new Home();
+                var newForm = new Picto.vozopictograma();
                 newForm.Show();
                 this.Hide();
             }
@@ -92,7 +92,7 @@ namespace WindowsFormsApp3
             if (contador == 1)
             {
                 MyGlobals.Texto = "";
-                var newForm = new Home();
+                var newForm = new Picto.vozopictograma();
                 newForm.Show();
                 this.Hide();
             }
@@ -110,7 +110,7 @@ namespace WindowsFormsApp3
             if (contador == 1)
             {
                 MyGlobals.Texto = "";
-                var newForm = new Home();
+                var newForm = new Picto.vozopictograma();
                 newForm.Show();
                 this.Hide();
             }
@@ -128,7 +128,7 @@ namespace WindowsFormsApp3
             if (contador == 1)
             {
                 MyGlobals.Texto = "";
-                var newForm = new Home();
+                var newForm = new Picto.vozopictograma();
                 newForm.Show();
                 this.Hide();
             }
@@ -146,10 +146,15 @@ namespace WindowsFormsApp3
             if (contador == 1)
             {
                 MyGlobals.Texto = "";
-                var newForm = new Home();
+                var newForm = new Picto.vozopictograma();
                 newForm.Show();
                 this.Hide();
             }
+        }
+
+        private void FormularioComidas_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
