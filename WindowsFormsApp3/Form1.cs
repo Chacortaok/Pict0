@@ -97,16 +97,17 @@ namespace Picto
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            var FormConfi = new Configuracion_Picto();
-            FormConfi.Show();
-            
-        }
+        
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("http://www.facebook.com/");
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            var FormConfi = new Configuracion_Picto();
+            FormConfi.Show();
         }
 
 

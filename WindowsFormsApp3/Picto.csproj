@@ -644,5 +644,8 @@
   <ItemGroup>
     <None Include="Resources\informationwebcircularbuttonsymbol_79860.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
