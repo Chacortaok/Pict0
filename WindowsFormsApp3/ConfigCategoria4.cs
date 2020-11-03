@@ -210,6 +210,41 @@ namespace WindowsFormsApp3
                 txtRuta.Text = "";
                 MessageBox.Show("Guardado Exitoso!!!");
             }
+
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var newformconfig1 = new ConfigCategoria1();
+            newformconfig1.Show();
+            this.Hide();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            var newformconfig2 = new ConfigCategoria2();
+            newformconfig2.Show();
+            this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            var newformconfig3 = new ConfigCategoria3();
+            newformconfig3.Show();
+            this.Hide();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            var newformconfig4 = new ConfigCategoria4();
+            newformconfig4.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            var newformconfig5 = new ConfigCategoria5();
+            newformconfig5.Show();
+            this.Hide();
         }
     }
 }

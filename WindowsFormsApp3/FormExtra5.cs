@@ -278,6 +278,7 @@ namespace WindowsFormsApp3
 
         private void imagen1()
         {
+            try { 
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
 
 
@@ -293,10 +294,16 @@ namespace WindowsFormsApp3
 
 
             pictureBoxColores.Image = Image.FromFile(rut1);
+            }
+            catch
+            {
+                pictureBoxColores.Visible = false;
+            }
 
         }
         private void imagen2()
         {
+            try { 
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
 
 
@@ -312,10 +319,16 @@ namespace WindowsFormsApp3
 
 
             pictureBox2.Image = Image.FromFile(rut2);
+            }
+            catch
+            {
+                pictureBox2.Visible = false;
+            }
 
         }
         private void imagen3()
         {
+            try { 
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
 
 
@@ -331,10 +344,17 @@ namespace WindowsFormsApp3
 
 
             pictureBox3.Image = Image.FromFile(rut3);
-
+            }
+            catch
+            {
+                pictureBox3.Visible = false;
+            }
         }
+
+        
         private void imagen4()
         {
+            try { 
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
 
 
@@ -350,10 +370,15 @@ namespace WindowsFormsApp3
 
 
             pictureBox4.Image = Image.FromFile(rut4);
-
+            }
+            catch
+            {
+                pictureBox4.Visible = false;
+            }
         }
         private void imagen5()
         {
+            try { 
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
 
 
@@ -369,10 +394,16 @@ namespace WindowsFormsApp3
 
 
             pictureBox5.Image = Image.FromFile(rut5);
+            }
+            catch
+            {
+                pictureBox5.Visible = false;
+            }
 
         }
         private void imagen6()
         {
+            try { 
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
 
 
@@ -386,9 +417,15 @@ namespace WindowsFormsApp3
             rd.Read();
             string rut6 = rd.GetString(0);
             pictureBox6.Image = Image.FromFile(rut6);
+            }
+            catch
+            {
+                pictureBox6.Visible = false;
+            }
         }
         private void imagen7()
         {
+            try { 
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
 
 
@@ -404,10 +441,16 @@ namespace WindowsFormsApp3
 
 
             pictureBox7.Image = Image.FromFile(rut7);
+            }
+            catch
+            {
+                pictureBox7.Visible = false;
+            }
 
         }
         private void imagen8()
         {
+            try { 
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
 
 
@@ -423,10 +466,16 @@ namespace WindowsFormsApp3
 
 
             pictureBox8.Image = Image.FromFile(rut8);
+            }
+            catch
+            {
+                pictureBox8.Visible = false;
+            }
 
         }
         private void imagen9()
         {
+            try { 
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
 
 
@@ -442,10 +491,16 @@ namespace WindowsFormsApp3
 
 
             pictureBox9.Image = Image.FromFile(rut9);
+            }
+            catch
+            {
+                pictureBox9.Visible = false;
+            }
 
         }
         private void imagen10()
         {
+            try { 
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
 
 
@@ -461,6 +516,11 @@ namespace WindowsFormsApp3
 
 
             pictureBox10.Image = Image.FromFile(rut10);
+            }
+            catch
+            {
+                pictureBox10.Visible = false;
+            }
 
         }
     }

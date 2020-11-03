@@ -276,6 +276,7 @@ namespace WindowsFormsApp3
 
         private void imagen1()
         {
+            try { 
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
 
 
@@ -291,10 +292,15 @@ namespace WindowsFormsApp3
 
 
             pictureBoxColores.Image = Image.FromFile(rut1);
-
+            }
+            catch
+            {
+                pictureBoxColores.Visible = false;
+            }
         }
         private void imagen2()
         {
+            try { 
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
 
 
@@ -310,29 +316,42 @@ namespace WindowsFormsApp3
 
 
             pictureBox2.Image = Image.FromFile(rut2);
+            }
+            catch
+            {
+                pictureBox2.Visible = false;
+            }
 
         }
         private void imagen3()
         {
-            OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
+            try
+            {
+                OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
 
 
-            con.Open();
-            OleDbCommand cmd = new OleDbCommand("SELECT Ruta FROM FormEx_3  WHERE Id = 3", con);
-            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
-            DataSet ds = new DataSet();
+                con.Open();
+                OleDbCommand cmd = new OleDbCommand("SELECT Ruta FROM FormEx_3  WHERE Id = 3", con);
+                OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+                DataSet ds = new DataSet();
 
-            OleDbDataReader rd = cmd.ExecuteReader();
+                OleDbDataReader rd = cmd.ExecuteReader();
 
-            rd.Read();
-            string rut3 = rd.GetString(0);
+                rd.Read();
+                string rut3 = rd.GetString(0);
 
 
-            pictureBox3.Image = Image.FromFile(rut3);
+                pictureBox3.Image = Image.FromFile(rut3);
+            }
+            catch
+            {
+                pictureBox3.Visible = false;
+            }
 
         }
         private void imagen4()
         {
+            try { 
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
 
 
@@ -348,10 +367,16 @@ namespace WindowsFormsApp3
 
 
             pictureBox4.Image = Image.FromFile(rut4);
+            }
+            catch
+            {
+                pictureBox4.Visible = false;
+            }
 
         }
         private void imagen5()
         {
+            try { 
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
 
 
@@ -367,6 +392,11 @@ namespace WindowsFormsApp3
 
 
             pictureBox5.Image = Image.FromFile(rut5);
+            }
+            catch
+            {
+                pictureBox5.Visible = false;
+            }
 
         }
         private void imagen6()
@@ -388,7 +418,7 @@ namespace WindowsFormsApp3
             }
             catch
             {
-                pictureBox5.Visible = false;
+                pictureBox6.Visible = false;
             }
         }
         private void imagen7()
@@ -412,7 +442,7 @@ namespace WindowsFormsApp3
             }
             catch
             {
-                pictureBox5.Visible = false;
+                pictureBox7.Visible = false;
             }
 
         }
@@ -437,7 +467,7 @@ namespace WindowsFormsApp3
             }
             catch
             {
-                pictureBox5.Visible = false;
+                pictureBox8.Visible = false;
             }
         }
         private void imagen9()
@@ -461,7 +491,7 @@ namespace WindowsFormsApp3
             }
             catch
             {
-                pictureBox5.Visible = false;
+                pictureBox9.Visible = false;
             }
         }
         private void imagen10()
@@ -485,7 +515,7 @@ namespace WindowsFormsApp3
             }
             catch
             {
-                pictureBox5.Visible = false;
+                pictureBox10.Visible = false;
             }
 
         }

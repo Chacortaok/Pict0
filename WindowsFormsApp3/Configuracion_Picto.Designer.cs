@@ -29,36 +29,16 @@
         private void InitializeComponent()
         {
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.chkList = new System.Windows.Forms.CheckedListBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // chkList
-            // 
-            this.chkList.BackColor = System.Drawing.SystemColors.InactiveBorder;
-            this.chkList.CausesValidation = false;
-            this.chkList.FormattingEnabled = true;
-            this.chkList.Items.AddRange(new object[] {
-            "Espacio Uno",
-            "Espacio Dos",
-            "Espacio Tres",
-            "Espacio Cuatro",
-            "Espacio Cinco"});
-            this.chkList.Location = new System.Drawing.Point(641, 233);
-            this.chkList.Name = "chkList";
-            this.chkList.Size = new System.Drawing.Size(210, 79);
-            this.chkList.TabIndex = 3;
-            this.chkList.SelectedIndexChanged += new System.EventHandler(this.chkList_SelectedIndexChanged);
             // 
             // button1
             // 
@@ -110,41 +90,25 @@
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::WindowsFormsApp3.Properties.Resources.Espacios_Con_nombre;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 143);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(524, 397);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // Configuracion_Picto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1075, 730);
+            this.ClientSize = new System.Drawing.Size(355, 23);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.chkList);
-            this.Controls.Add(this.pictureBox1);
             this.Name = "Configuracion_Picto";
             this.Text = "Configuracion_Picto";
             this.Load += new System.EventHandler(this.Configuracion_Picto_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.CheckedListBox chkList;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button4;
