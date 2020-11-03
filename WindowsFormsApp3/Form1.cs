@@ -101,7 +101,12 @@ namespace Picto
         {
             var FormConfi = new Configuracion_Picto();
             FormConfi.Show();
-            this.Hide();
+            
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://www.facebook.com/");
         }
 
 
