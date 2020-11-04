@@ -295,7 +295,7 @@ namespace WindowsFormsApp3
             }
             catch
             {
-                pictureBox5.Visible = false;
+                pictureBoxColores.Visible = false;
             }
         }
         private void imagen2()
@@ -319,7 +319,7 @@ namespace WindowsFormsApp3
             }
             catch
             {
-                pictureBox5.Visible = false;
+                pictureBox2.Visible = false;
             }
 
         }
@@ -344,7 +344,7 @@ namespace WindowsFormsApp3
             }
             catch
             {
-                pictureBox5.Visible = false;
+                pictureBox3.Visible = false;
             }
 
         }
@@ -369,7 +369,7 @@ namespace WindowsFormsApp3
             }
             catch
             {
-                pictureBox5.Visible = false;
+                pictureBox4.Visible = false;
             }
 
 

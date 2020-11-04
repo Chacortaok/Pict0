@@ -128,8 +128,8 @@ namespace Picto
             string des = rd.GetString(0);
             MyGlobals.Texto = des;
 
-            var newformextra1 = new FormExtra1();
-            newformextra1.Show();
+            var newformextra5 = new FormExtra5();
+            newformextra5.Show();
             this.Hide();
         }
 
@@ -148,8 +148,8 @@ namespace Picto
             rd.Read();
             string des = rd.GetString(0);
             MyGlobals.Texto = des;
-            var newformextra2 = new FormExtra2();
-            newformextra2.Show();
+            var newformextra1 = new FormExtra1();
+            newformextra1.Show();
             this.Hide();
             
             
@@ -170,8 +170,8 @@ namespace Picto
             rd.Read();
             string des = rd.GetString(0);
             MyGlobals.Texto = des;
-            var newformextra3 = new FormExtra3();
-            newformextra3.Show();
+            var newformextra2 = new FormExtra2();
+            newformextra2.Show();
             this.Hide();
         }
 
@@ -190,8 +190,8 @@ namespace Picto
             rd.Read();
             string des = rd.GetString(0);
             MyGlobals.Texto = des;
-            var newformextra4 = new FormExtra4();
-            newformextra4.Show();
+            var newformextra3 = new FormExtra3();
+            newformextra3.Show();
             this.Hide();
         }
 
@@ -210,8 +210,8 @@ namespace Picto
             rd.Read();
             string des = rd.GetString(0);
             MyGlobals.Texto = des;
-            var newformextra5 = new FormExtra5();
-            newformextra5.Show();
+            var newformextra4 = new FormExtra4();
+            newformextra4.Show();
             this.Hide();
         }
 
