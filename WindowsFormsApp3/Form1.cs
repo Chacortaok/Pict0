@@ -47,6 +47,7 @@ namespace Picto
         public Home()
         {
             InitializeComponent();
+           
         }
         // Te manda a las diferentes partes de la  App 
         private void btn2_Click(object sender, EventArgs e)
@@ -54,6 +55,7 @@ namespace Picto
             var newForm3 = new vozopictograma();
             newForm3.Show();
             this.Hide();
+            
         }
         private void label1_Click(object sender, EventArgs e)
         {
@@ -108,6 +110,11 @@ namespace Picto
         {
             var FormConfi = new Configuracion_Picto();
             FormConfi.Show();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            
         }
 
 

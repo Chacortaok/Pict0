@@ -30,6 +30,7 @@ namespace WindowsFormsApp3
             imagen8();
             imagen9();
             imagen10();
+            textBox1.Text = MyGlobals.Texto;
 
         }
 
@@ -45,6 +46,7 @@ namespace WindowsFormsApp3
             imagen8();
             imagen9();
             imagen10();
+            
         }
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -547,6 +549,11 @@ namespace WindowsFormsApp3
         private void FormExtra1_Load_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            speak.Speak(textBox1.Text);
         }
     }
 

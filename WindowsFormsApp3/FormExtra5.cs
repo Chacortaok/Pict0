@@ -523,5 +523,10 @@ namespace WindowsFormsApp3
             }
 
         }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            speak.Speak(textBox1.Text);
+        }
     }
 }
