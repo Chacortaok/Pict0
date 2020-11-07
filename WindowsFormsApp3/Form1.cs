@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using WindowsFormsApp3;
 using System.Data.OleDb;
 using System.IO;
+using WindowsFormsApp3.Properties;
 
 namespace Picto
 {
@@ -47,6 +48,30 @@ namespace Picto
         public Home()
         {
             InitializeComponent();
+            
+            OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
+            con.Open();
+            OleDbCommand cmd = new OleDbCommand("SELECT Fondo FROM FormEx_AA WHERE Id = 1", con);
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            OleDbDataReader rd = cmd.ExecuteReader();
+
+            rd.Read();
+            string fondo = rd.GetString(0);
+
+
+
+
+            if (fondo == "Fondo Blanco") {
+                BackgroundImage = Resources.Artboard_2;
+                pictureBox2.Visible = false;
+
+            }
+
+            else
+            {
+                BackgroundImage = Resources.Main_Menu_2;
+                pictureBox2.Visible = true;
+            }
            
         }
         // Te manda a las diferentes partes de la  App 
@@ -73,29 +98,10 @@ namespace Picto
         // btn test if the connection is OK
         private void btnTest_Click(object sender, EventArgs e)
         {
-            if (cn != null)
-            {
-                MessageBox.Show("Conexion Correcta PAPUUU");
-            }
+            
             {
               //  using (())
-                {
-                    OleDbCommand and = new OleDbCommand();
-                    cn.Open();
-                    and.Connection = cn;
-                    and.CommandText = "SELECT Image FROM Table1 WHERE IDhere= 1 ";
-                    OleDbDataReader read = and.ExecuteReader();
-                    while (read.Read())
-                    {
-                        var bytes = (byte[])read[4];
-                        using (MemoryStream ms = new MemoryStream(bytes))
-                        {
-                            pictureBox1.Image = Image.FromStream(ms);
-                        }
-                    }
-
-                    cn.Close();
-                }
+                
             }
         }
 

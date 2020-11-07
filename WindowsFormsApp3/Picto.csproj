@@ -672,5 +672,26 @@
   <ItemGroup>
     <None Include="Resources\btn play.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin título.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondoooo_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Main_Menu_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard_1 %281%29.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -8,6 +8,8 @@ using System.Windows.Forms;
 using System.Speech.Synthesis;
 using WindowsFormsApp3;
 using Picto;
+using System.Data.OleDb;
+using WindowsFormsApp3.Properties;
 
 namespace WindowsFormsApp3
 {
@@ -16,6 +18,33 @@ namespace WindowsFormsApp3
         public FormularioSentimientos()
         {
             InitializeComponent();
+            OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
+            con.Open();
+            OleDbCommand cmd = new OleDbCommand("SELECT Fondo FROM FormEx_AA WHERE Id = 1", con);
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            OleDbDataReader rd = cmd.ExecuteReader();
+
+            rd.Read();
+            string fondo = rd.GetString(0);
+
+
+
+
+            if (fondo == "Fondo Blanco")
+            {
+                BackgroundImage = Resources.Artboard_1;
+
+
+
+            }
+
+            else
+            {
+                BackgroundImage = Resources.Artboard_1__1_;
+
+
+
+            }
         }
         int contador = 0;
         SpeechSynthesizer speak = new SpeechSynthesizer();
@@ -143,6 +172,19 @@ namespace WindowsFormsApp3
         }
 
         private void FormularioSentimientos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+            MyGlobals.Texto = "";
+            var newForm = new Picto.vozopictograma();
+            newForm.Show();
+            this.Hide();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -263,6 +263,46 @@ namespace WindowsFormsApp3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Artboard_1 {
+            get {
+                object obj = ResourceManager.GetObject("Artboard_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Artboard_1__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Artboard_1 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Artboard_11 {
+            get {
+                object obj = ResourceManager.GetObject("Artboard_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Artboard_2 {
+            get {
+                object obj = ResourceManager.GetObject("Artboard_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ATARME_LOS_CORDONES {
             get {
                 object obj = ResourceManager.GetObject("ATARME LOS CORDONES", resourceCulture);
@@ -663,6 +703,16 @@ namespace WindowsFormsApp3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fondoooo_2 {
+            get {
+                object obj = ResourceManager.GetObject("fondoooo_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FUTBOL {
             get {
                 object obj = ResourceManager.GetObject("FUTBOL", resourceCulture);
@@ -806,6 +856,16 @@ namespace WindowsFormsApp3.Properties {
         internal static System.Drawing.Bitmap JOYAS {
             get {
                 object obj = ResourceManager.GetObject("JOYAS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Main_Menu_2 {
+            get {
+                object obj = ResourceManager.GetObject("Main_Menu_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1046,6 +1106,16 @@ namespace WindowsFormsApp3.Properties {
         internal static System.Drawing.Bitmap SIETE {
             get {
                 object obj = ResourceManager.GetObject("SIETE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sin_título {
+            get {
+                object obj = ResourceManager.GetObject("Sin título", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

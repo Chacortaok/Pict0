@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Picto;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -80,9 +81,44 @@ namespace WindowsFormsApp3
             this.Hide();
         }
 
+        
         private void chkList_SelectedIndexChanged(object sender, EventArgs e)
         {
+            
+        }
 
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void btnsave_Click(object sender, EventArgs e)
+        {
+            if (comboBox1.Text == "Fondo Blanco")
+            {
+
+                OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
+
+
+                con.Open();
+                OleDbCommand cmd = new OleDbCommand("UPDATE FormEx_AA SET Fondo = '" + comboBox1.Text + "' WHERE Id = 1", con);
+                cmd.ExecuteNonQuery();
+
+                MessageBox.Show("Guardado Exitoso!!!");
+                Application.Restart();
+            }
+            else
+            {
+                OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
+
+
+                con.Open();
+                OleDbCommand cmd = new OleDbCommand("UPDATE FormEx_AA SET Fondo = '" + comboBox1.Text + "' WHERE Id = 1", con);
+                cmd.ExecuteNonQuery();
+
+                MessageBox.Show("Guardado Exitoso!!!");
+                Application.Restart();
+            }
         }
     }
 }
