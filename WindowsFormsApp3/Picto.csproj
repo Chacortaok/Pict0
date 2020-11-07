@@ -70,9 +70,6 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="System">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
     </Reference>
@@ -166,6 +163,12 @@
     </Compile>
     <Compile Include="FormExtra5.Designer.cs">
       <DependentUpon>FormExtra5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTexto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTexto.Designer.cs">
+      <DependentUpon>FormTexto.cs</DependentUpon>
     </Compile>
     <Compile Include="FormularioColores.cs">
       <SubType>Form</SubType>
@@ -264,6 +267,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormExtra5.resx">
       <DependentUpon>FormExtra5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTexto.resx">
+      <DependentUpon>FormTexto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormularioColores.resx">
       <DependentUpon>FormularioColores.cs</DependentUpon>
@@ -689,6 +695,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Artboard_1 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard_2 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Artboard_21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flechita.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PICTO LOGO %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PICTO LOGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PICTO LOGO %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PICTO LOGO %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsFormsApp3.Properties;
 
 namespace WindowsFormsApp3
 {
@@ -17,7 +18,33 @@ namespace WindowsFormsApp3
         public Configuracion_Picto()
         {
             InitializeComponent();
-            
+            OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
+            con.Open();
+            OleDbCommand cmd = new OleDbCommand("SELECT Fondo FROM FormEx_AA WHERE Id = 1", con);
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            OleDbDataReader rd = cmd.ExecuteReader();
+
+            rd.Read();
+            string fondo = rd.GetString(0);
+
+
+
+
+            if (fondo == "Fondo Blanco")
+            {
+                BackColor = Color.White;
+
+
+
+            }
+
+            else
+            {
+                BackgroundImage = Resources.FONDOO_1;
+
+
+
+            }
         }
         
      

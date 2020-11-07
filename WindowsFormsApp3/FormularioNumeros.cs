@@ -62,22 +62,14 @@ namespace WindowsFormsApp3
         {
             MyGlobals.Texto = MyGlobals.Texto + "Dos";
             textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
         }
 
         private void pictureBoxColores_Click(object sender, EventArgs e)
         {
             MyGlobals.Texto = "Uno";
             textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
         }
 
         
@@ -86,99 +78,63 @@ namespace WindowsFormsApp3
         {
             MyGlobals.Texto = " Cuatro";
             textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             MyGlobals.Texto = " Tres";
             textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             MyGlobals.Texto = "";
             textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
             MyGlobals.Texto = " Cinco";
             textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
             MyGlobals.Texto = " Seis";
             textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             MyGlobals.Texto = " Siete";
             textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
         }
 
         private void pictureBox8_Click(object sender, EventArgs e)
         {
             MyGlobals.Texto = " Ocho";
             textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
             MyGlobals.Texto = "Nueve";
             textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
         }
 
         private void pictureBox10_Click(object sender, EventArgs e)
         {
             MyGlobals.Texto = "Diez";
             textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
         }
 
         private void FormularioNumeros_Load(object sender, EventArgs e)
@@ -191,6 +147,12 @@ namespace WindowsFormsApp3
             var newForm = new vozopictograma();
             newForm.Show();
             this.Hide();
+            MyGlobals.Texto = "";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            speak.Speak(textBox1.Text);
             MyGlobals.Texto = "";
         }
     }

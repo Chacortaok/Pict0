@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Configuracion_Picto));
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -127,8 +128,10 @@
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Configuracion_Picto";
-            this.Text = "Configuracion_Picto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Text = "Picto";
             this.Load += new System.EventHandler(this.Configuracion_Picto_Load);
             this.ResumeLayout(false);
 

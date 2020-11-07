@@ -73,11 +73,7 @@ namespace WindowsFormsApp3
             
                 MyGlobals.Texto = MyGlobals.Texto + "unos botines";
                 textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
-            MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
+            MyGlobals.Texto = "Yo quiero/no quiero ";
 
 
         }
@@ -85,13 +81,9 @@ namespace WindowsFormsApp3
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             
-                MyGlobals.Texto = MyGlobals.Texto + "las zapatillas";
+                MyGlobals.Texto = MyGlobals.Texto + "unas zapatillas";
                 textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
-            MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
+            MyGlobals.Texto = "Yo quiero/no quiero ";
 
         }
 
@@ -100,11 +92,7 @@ namespace WindowsFormsApp3
            
                 MyGlobals.Texto = MyGlobals.Texto + "unas ojotas";
                 textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
-            MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
+            MyGlobals.Texto = "Yo quiero/no quiero ";
 
 
         }
@@ -114,11 +102,7 @@ namespace WindowsFormsApp3
             
                 MyGlobals.Texto = MyGlobals.Texto + "un vestido";
                 textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
-            MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
+            MyGlobals.Texto = "Yo quiero/no quiero ";
 
 
 
@@ -129,11 +113,7 @@ namespace WindowsFormsApp3
            
                 MyGlobals.Texto = MyGlobals.Texto + "una remera ";
                 textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
-            MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
+            MyGlobals.Texto = "Yo quiero/no quiero ";
 
 
         }
@@ -143,11 +123,7 @@ namespace WindowsFormsApp3
          
                 MyGlobals.Texto = MyGlobals.Texto + "el pijama";
                 textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
-            MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
+            MyGlobals.Texto = "Yo quiero/no quiero ";
 
 
 
@@ -157,13 +133,9 @@ namespace WindowsFormsApp3
         private void pictureBox7_Click(object sender, EventArgs e)
         {
           
-                MyGlobals.Texto = MyGlobals.Texto + "impermiable ";
+                MyGlobals.Texto = MyGlobals.Texto + "un impermeable ";
                 textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
-            MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
+            MyGlobals.Texto = "Yo quiero/no quiero ";
 
         }
 
@@ -171,11 +143,7 @@ namespace WindowsFormsApp3
         {
             MyGlobals.Texto = MyGlobals.Texto + "un abrigo";
             textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
-            MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
+            MyGlobals.Texto = "Yo quiero/no quiero ";
 
         }
 
@@ -184,11 +152,7 @@ namespace WindowsFormsApp3
            
                 MyGlobals.Texto = MyGlobals.Texto + "un pantalon";
                 textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
-            MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
+            MyGlobals.Texto = "Yo quiero/no quiero ";
 
 
         }
@@ -196,13 +160,9 @@ namespace WindowsFormsApp3
         private void pictureBox13_Click(object sender, EventArgs e)
         {
           
-                MyGlobals.Texto = MyGlobals.Texto + "guantes ";
+                MyGlobals.Texto = MyGlobals.Texto + "unos guantes ";
                 textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
-            MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
+            MyGlobals.Texto = "Yo quiero/no quiero ";
 
 
         }
@@ -212,11 +172,9 @@ namespace WindowsFormsApp3
 
             MyGlobals.Texto = MyGlobals.Texto + "joyas ";
             textBox1.Text = MyGlobals.Texto;
-            speak.Speak(textBox1.Text);
-            MyGlobals.Texto = "";
-            var newForm = new Picto.vozopictograma();
-            newForm.Show();
-            this.Hide();
+
+            MyGlobals.Texto = "Yo quiero/no quiero ";
+
         }
 
         private void FormularioRopa_Load(object sender, EventArgs e)
@@ -226,10 +184,16 @@ namespace WindowsFormsApp3
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
-            var newForm = new Home();
+            var newForm = new FormularioQuerer();
             newForm.Show();
             this.Hide();
             MyGlobals.Texto = "";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            speak.Speak(textBox1.Text);
+            
         }
     }
     }

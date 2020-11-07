@@ -63,6 +63,26 @@ namespace WindowsFormsApp3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1 {
+            get {
+                object obj = ResourceManager.GetObject("1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _11 {
+            get {
+                object obj = ResourceManager.GetObject("11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap AAA_COLORES {
             get {
                 object obj = ResourceManager.GetObject("AAA COLORES", resourceCulture);
@@ -296,6 +316,26 @@ namespace WindowsFormsApp3.Properties {
         internal static System.Drawing.Bitmap Artboard_2 {
             get {
                 object obj = ResourceManager.GetObject("Artboard_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Artboard_2__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Artboard_2 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Artboard_21 {
+            get {
+                object obj = ResourceManager.GetObject("Artboard_21", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -673,6 +713,16 @@ namespace WindowsFormsApp3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Flechita {
+            get {
+                object obj = ResourceManager.GetObject("Flechita", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FONDOO_1 {
             get {
                 object obj = ResourceManager.GetObject("FONDOO_1", resourceCulture);
@@ -986,6 +1036,46 @@ namespace WindowsFormsApp3.Properties {
         internal static System.Drawing.Bitmap PARQUE_DE_PATINAJE {
             get {
                 object obj = ResourceManager.GetObject("PARQUE DE PATINAJE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PICTO_LOGO {
+            get {
+                object obj = ResourceManager.GetObject("PICTO LOGO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PICTO_LOGO__1_ {
+            get {
+                object obj = ResourceManager.GetObject("PICTO LOGO (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PICTO_LOGO__2_ {
+            get {
+                object obj = ResourceManager.GetObject("PICTO LOGO (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PICTO_LOGO__2_1 {
+            get {
+                object obj = ResourceManager.GetObject("PICTO LOGO (2)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

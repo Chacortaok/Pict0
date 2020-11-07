@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ConfigCategoria3));
             this.txtDigo = new System.Windows.Forms.TextBox();
             this.chkList = new System.Windows.Forms.CheckedListBox();
             this.btnSave = new System.Windows.Forms.Button();
@@ -179,7 +180,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::WindowsFormsApp3.Properties.Resources.FONDOO_1;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -193,8 +193,11 @@
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnExaminar);
             this.Controls.Add(this.txtRuta);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ConfigCategoria3";
-            this.Text = "Categoria3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.Text = "Picto";
+            this.Load += new System.EventHandler(this.ConfigCategoria3_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

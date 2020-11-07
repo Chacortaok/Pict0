@@ -46,7 +46,7 @@ namespace WindowsFormsApp3
 
             }
         }
-        int contador = 0;
+        
         SpeechSynthesizer speak = new SpeechSynthesizer();
         private void pictureBox1_Click(object sender, EventArgs e)
         {
@@ -57,128 +57,59 @@ namespace WindowsFormsApp3
 
         private void pictureBoxNumeros_Click(object sender, EventArgs e)
         {
-            if (contador == 0)
-            {
-                MyGlobals.Texto = MyGlobals.Texto + "Agua ";
+            
+                MyGlobals.Texto = MyGlobals.Texto + "agua ";
                 textBox1.Text = MyGlobals.Texto;
-                speak.Speak(textBox1.Text);
-                contador++;
+                MyGlobals.Texto = "Yo quiero/no quiero comer ";
             }
-            if (contador == 1)
-            {
-                MyGlobals.Texto = "";
-                var newForm = new Picto.vozopictograma();
-                newForm.Show();
-                this.Hide();
-            }
-        }
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            if (contador == 0)
-            {
+            
                 MyGlobals.Texto = MyGlobals.Texto + "caramelos ";
                 textBox1.Text = MyGlobals.Texto;
-                speak.Speak(textBox1.Text);
-                contador++;
-            }
-            if (contador == 1)
-            {
-                MyGlobals.Texto = "";
-                var newForm = new Picto.vozopictograma();
-                newForm.Show();
-                this.Hide();
-            }
+            MyGlobals.Texto = "Yo quiero/no quiero comer ";
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            if (contador == 0)
-            {
+            
                 MyGlobals.Texto = MyGlobals.Texto + "la cena ";
                 textBox1.Text = MyGlobals.Texto;
-                speak.Speak(textBox1.Text);
-                contador++;
-            }
-            if (contador == 1)
-            {
-                MyGlobals.Texto = "";
-                var newForm = new Picto.vozopictograma();
-                newForm.Show();
-                this.Hide();
-            }
+            MyGlobals.Texto = "Yo quiero/no quiero comer ";
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-            if (contador == 0)
-            {
+            
                 MyGlobals.Texto = MyGlobals.Texto + "el desayuno ";
                 textBox1.Text = MyGlobals.Texto;
-                speak.Speak(textBox1.Text);
-                contador++;
-            }
-            if (contador == 1)
-            {
-                MyGlobals.Texto = "";
-                var newForm = new Picto.vozopictograma();
-                newForm.Show();
-                this.Hide();
-            }
+            MyGlobals.Texto = "Yo quiero/no quiero comer ";
+
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            if (contador == 0)
-            {
+            
                 MyGlobals.Texto = MyGlobals.Texto + "la merienda ";
                 textBox1.Text = MyGlobals.Texto;
-                speak.Speak(textBox1.Text);
-                contador++;
-            }
-            if (contador == 1)
-            {
-                MyGlobals.Texto = "";
-                var newForm = new Picto.vozopictograma();
-                newForm.Show();
-                this.Hide();
-            }
+            MyGlobals.Texto = "Yo quiero/no quiero comer ";
         }
 
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-            if (contador == 0)
-            {
+            
                 MyGlobals.Texto = MyGlobals.Texto + "helado ";
                 textBox1.Text = MyGlobals.Texto;
-                speak.Speak(textBox1.Text);
-                contador++;
-            }
-            if (contador == 1)
-            {
-                MyGlobals.Texto = "";
-                var newForm = new Picto.vozopictograma();
-                newForm.Show();
-                this.Hide();
-            }
+            MyGlobals.Texto = "Yo quiero/no quiero comer ";
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            if (contador == 0)
-            {
-                MyGlobals.Texto = MyGlobals.Texto + "Chocolate ";
+            
+                MyGlobals.Texto = MyGlobals.Texto + "chocolate ";
                 textBox1.Text = MyGlobals.Texto;
-                speak.Speak(textBox1.Text);
-                contador++;
-            }
-            if (contador == 1)
-            {
-                MyGlobals.Texto = "";
-                var newForm = new Picto.vozopictograma();
-                newForm.Show();
-                this.Hide();
-            }
+            MyGlobals.Texto = "Yo quiero/no quiero comer ";
         }
 
         private void FormularioComidas_Load(object sender, EventArgs e)
@@ -188,7 +119,7 @@ namespace WindowsFormsApp3
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
-            var newForm = new vozopictograma();
+            var newForm = new FormularioQuerer();
             newForm.Show();
             this.Hide();
             MyGlobals.Texto = "";
@@ -196,6 +127,12 @@ namespace WindowsFormsApp3
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
+            
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            speak.Speak(textBox1.Text);
             
         }
     }

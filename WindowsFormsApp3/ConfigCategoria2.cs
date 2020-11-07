@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.OleDb;
+using WindowsFormsApp3.Properties;
 
 namespace WindowsFormsApp3
 {
@@ -16,6 +17,34 @@ namespace WindowsFormsApp3
         public ConfigCategoria2()
         {
             InitializeComponent();
+            InitializeComponent();
+            OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
+            con.Open();
+            OleDbCommand cmd = new OleDbCommand("SELECT Fondo FROM FormEx_AA WHERE Id = 1", con);
+            OleDbDataAdapter da = new OleDbDataAdapter(cmd);
+            OleDbDataReader rd = cmd.ExecuteReader();
+
+            rd.Read();
+            string fondo = rd.GetString(0);
+
+
+
+
+            if (fondo == "Fondo Blanco")
+            {
+                BackgroundImage = Resources.Sin_título;
+
+
+
+            }
+
+            else
+            {
+                BackgroundImage = Resources.FONDOO_1;
+
+
+
+            }
         }
         
 
@@ -249,6 +278,11 @@ namespace WindowsFormsApp3
             var newformconfig5 = new ConfigCategoria5();
             newformconfig5.Show();
             this.Hide();
+        }
+
+        private void ConfigCategoria2_Load(object sender, EventArgs e)
+        {
+
         }
     }
     }

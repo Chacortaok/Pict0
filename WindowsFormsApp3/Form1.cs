@@ -62,6 +62,7 @@ namespace Picto
 
 
             if (fondo == "Fondo Blanco") {
+
                 BackgroundImage = Resources.Artboard_2__1_;
                 pictureBox2.Visible = false;
 
@@ -121,6 +122,11 @@ namespace Picto
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
 
 
