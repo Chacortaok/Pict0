@@ -109,7 +109,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::WindowsFormsApp3.Properties.Resources.Main_Menu_2;
+            this.BackgroundImage = global::WindowsFormsApp3.Properties.Resources.Artboard_2__1_;
             this.ClientSize = new System.Drawing.Size(1904, 972);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox4);

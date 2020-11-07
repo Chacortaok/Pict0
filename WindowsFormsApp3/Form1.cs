@@ -62,7 +62,7 @@ namespace Picto
 
 
             if (fondo == "Fondo Blanco") {
-                BackgroundImage = Resources.Artboard_2;
+                BackgroundImage = Resources.Artboard_2__1_;
                 pictureBox2.Visible = false;
 
             }

@@ -188,15 +188,15 @@ namespace WindowsFormsApp3
 
         private void pictureBox1_Click_1(object sender, EventArgs e)
         {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
             var newForm = new vozopictograma();
             newForm.Show();
             this.Hide();
             MyGlobals.Texto = "";
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

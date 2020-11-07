@@ -679,9 +679,6 @@
     <None Include="Resources\fondoooo_2.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Artboard_2.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\Main_Menu_2.png" />
   </ItemGroup>
   <ItemGroup>
