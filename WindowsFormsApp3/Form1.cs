@@ -126,7 +126,9 @@ namespace Picto
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            var NewForm = new FormTexto();
+            NewForm.Show();
+            this.Hide();
         }
 
 

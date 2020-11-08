@@ -37,7 +37,9 @@
             // 
             // textBox1
             // 
+            this.textBox1.BackColor = System.Drawing.Color.White;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Open-Dyslexic", 20F);
             this.textBox1.Location = new System.Drawing.Point(186, 150);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
