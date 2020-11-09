@@ -514,9 +514,6 @@
     <None Include="Resources\PICTO LOGO %281%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\12173.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\121731.png" />
   </ItemGroup>
   <ItemGroup>
@@ -650,12 +647,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ausente.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\auto%281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\auto.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\avion.png" />
@@ -845,9 +836,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\comer%281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\comer.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\comida.png" />
@@ -1265,9 +1253,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\historia.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\hola.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\hospital%281%29.png" />
@@ -2507,6 +2492,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\zueco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12173 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12173.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auto%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hola.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

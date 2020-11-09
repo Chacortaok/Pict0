@@ -153,7 +153,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::WindowsFormsApp3.Properties.Resources.AUTO;
+            this.pictureBox2.Image = global::WindowsFormsApp3.Properties.Resources.a;
             this.pictureBox2.InitialImage = null;
             this.pictureBox2.Location = new System.Drawing.Point(1151, 131);
             this.pictureBox2.Name = "pictureBox2";

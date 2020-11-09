@@ -127,7 +127,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::WindowsFormsApp3.Properties.Resources.HOSPITAL;
+            this.pictureBox3.Image = global::WindowsFormsApp3.Properties.Resources.hospital;
             this.pictureBox3.InitialImage = null;
             this.pictureBox3.Location = new System.Drawing.Point(1471, 131);
             this.pictureBox3.Name = "pictureBox3";

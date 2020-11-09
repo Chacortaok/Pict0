@@ -97,7 +97,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = global::WindowsFormsApp3.Properties.Resources.COMER;
+            this.pictureBox6.Image = global::WindowsFormsApp3.Properties.Resources.comer;
             this.pictureBox6.InitialImage = null;
             this.pictureBox6.Location = new System.Drawing.Point(1631, 131);
             this.pictureBox6.Name = "pictureBox6";
@@ -109,7 +109,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::WindowsFormsApp3.Properties.Resources.DORMIR;
+            this.pictureBox5.Image = global::WindowsFormsApp3.Properties.Resources.dormir;
             this.pictureBox5.InitialImage = null;
             this.pictureBox5.Location = new System.Drawing.Point(991, 299);
             this.pictureBox5.Name = "pictureBox5";
@@ -121,7 +121,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::WindowsFormsApp3.Properties.Resources.BAÑARME;
+            this.pictureBox4.Image = global::WindowsFormsApp3.Properties.Resources.bañarme;
             this.pictureBox4.InitialImage = null;
             this.pictureBox4.Location = new System.Drawing.Point(1311, 131);
             this.pictureBox4.Name = "pictureBox4";

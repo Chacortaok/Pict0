@@ -93,6 +93,16 @@ namespace WindowsFormsApp3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _12173__1_ {
+            get {
+                object obj = ResourceManager.GetObject("_12173__1_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _121731 {
             get {
                 object obj = ResourceManager.GetObject("121731", resourceCulture);
@@ -106,6 +116,16 @@ namespace WindowsFormsApp3.Properties {
         internal static System.Drawing.Bitmap _121732 {
             get {
                 object obj = ResourceManager.GetObject("121732", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a {
+            get {
+                object obj = ResourceManager.GetObject("a", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -753,19 +773,9 @@ namespace WindowsFormsApp3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap AUTO {
+        internal static System.Drawing.Bitmap auto {
             get {
-                object obj = ResourceManager.GetObject("AUTO", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap auto_1_ {
-            get {
-                object obj = ResourceManager.GetObject("auto_1_", resourceCulture);
+                object obj = ResourceManager.GetObject("auto", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -863,9 +873,9 @@ namespace WindowsFormsApp3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BAÑARME {
+        internal static System.Drawing.Bitmap bañarme {
             get {
-                object obj = ResourceManager.GetObject("BAÑARME", resourceCulture);
+                object obj = ResourceManager.GetObject("bañarme", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -1473,9 +1483,9 @@ namespace WindowsFormsApp3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap COMER {
+        internal static System.Drawing.Bitmap comer {
             get {
-                object obj = ResourceManager.GetObject("COMER", resourceCulture);
+                object obj = ResourceManager.GetObject("comer", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2073,9 +2083,9 @@ namespace WindowsFormsApp3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DORMIR {
+        internal static System.Drawing.Bitmap dormir {
             get {
-                object obj = ResourceManager.GetObject("DORMIR", resourceCulture);
+                object obj = ResourceManager.GetObject("dormir", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2983,9 +2993,9 @@ namespace WindowsFormsApp3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap HOLA {
+        internal static System.Drawing.Bitmap hola {
             get {
-                object obj = ResourceManager.GetObject("HOLA", resourceCulture);
+                object obj = ResourceManager.GetObject("hola", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -2993,9 +3003,9 @@ namespace WindowsFormsApp3.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap HOSPITAL {
+        internal static System.Drawing.Bitmap hospital {
             get {
-                object obj = ResourceManager.GetObject("HOSPITAL", resourceCulture);
+                object obj = ResourceManager.GetObject("hospital", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

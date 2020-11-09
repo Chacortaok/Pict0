@@ -44,15 +44,16 @@
             // 
             // btn2
             // 
-            this.btn2.BackColor = System.Drawing.Color.Transparent;
+            this.btn2.BackColor = System.Drawing.Color.White;
             this.btn2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btn2.FlatAppearance.BorderSize = 0;
-            this.btn2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
-            this.btn2.ForeColor = System.Drawing.Color.Transparent;
+            this.btn2.Font = new System.Drawing.Font("Tabarra Black", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn2.ForeColor = System.Drawing.Color.Black;
             this.btn2.Location = new System.Drawing.Point(712, 478);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(496, 134);
             this.btn2.TabIndex = 0;
+            this.btn2.Text = "Pictogramas";
             this.btn2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.btn2.UseVisualStyleBackColor = false;
             this.btn2.Click += new System.EventHandler(this.btn2_Click);
@@ -106,15 +107,16 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackColor = System.Drawing.Color.White;
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
-            this.button1.ForeColor = System.Drawing.Color.Transparent;
+            this.button1.Font = new System.Drawing.Font("Tabarra Black", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(712, 658);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(496, 134);
             this.button1.TabIndex = 12;
+            this.button1.Text = "Traductor";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);

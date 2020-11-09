@@ -334,7 +334,7 @@
   <data name="JOYAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\JOYAS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HOSPITAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="hospital" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HOSPITAL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -343,7 +343,7 @@
   <data name="estrangular" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\estrangular.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="DORMIR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="dormir" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\DORMIR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="colchoneta" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -412,7 +412,7 @@
   <data name="seísmo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\seísmo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="HOLA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="hola" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HOLA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="FONDOO_1 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -559,7 +559,7 @@
   <data name="suspender_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\suspender_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AUTO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="a" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AUTO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="cantar" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -1015,7 +1015,7 @@
   <data name="efadado" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\efadado.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="BAÑARME" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="bañarme" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BAÑARME.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="servilleta" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -1663,7 +1663,7 @@
   <data name="hibernar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\hibernar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="COMER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="comer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\COMER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mujer_con_mascarilla" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -1879,7 +1879,7 @@
   <data name="settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="auto_1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="auto" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\auto(1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="comida" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -2277,5 +2277,8 @@
   </data>
   <data name="pantalón_de_chándal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pantalón de chándal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_12173__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12173 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

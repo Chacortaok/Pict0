@@ -83,7 +83,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.Image = global::WindowsFormsApp3.Properties.Resources.HOLA;
+            this.pictureBox5.Image = global::WindowsFormsApp3.Properties.Resources.hola;
             this.pictureBox5.InitialImage = null;
             this.pictureBox5.Location = new System.Drawing.Point(1311, 131);
             this.pictureBox5.Name = "pictureBox5";

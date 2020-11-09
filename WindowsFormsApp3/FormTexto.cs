@@ -94,6 +94,7 @@ namespace WindowsFormsApp3
             {
                 if (a > 0)
                 {
+                    textBox1.SelectionBackColor = Color.White;
                     a--;
                     textBox2.Text = textBox1.Text;
                     textBox2.CharacterCasing = CharacterCasing.Lower;
@@ -102,6 +103,8 @@ namespace WindowsFormsApp3
                     var imageToShow = Properties.Resources.ResourceManager.GetObject(palabra);
                     pictureBox2.BackgroundImage = (Image)imageToShow;
                     textBox2.Text = "";
+                    textBox1.Find(palabra);
+                    textBox1.SelectionBackColor = Color.Gray;
                 }
             }
             catch
@@ -125,15 +128,23 @@ namespace WindowsFormsApp3
                 {
                     var imageToShow = Properties.Resources.ResourceManager.GetObject(palabra);
                     pictureBox2.BackgroundImage = (Image)imageToShow;
-
+                    textBox1.SelectionBackColor = Color.White;
                     a++;
                     textBox2.Text = "";
+                    textBox1.Find(palabra);
+                    textBox1.SelectionBackColor = Color.Gray;
+                    
                 }
             }
             catch
             {
 
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
