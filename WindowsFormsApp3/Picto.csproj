@@ -723,5 +723,11 @@
   <ItemGroup>
     <None Include="Resources\PICTO LOGO %281%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12173.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\121731.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
