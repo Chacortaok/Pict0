@@ -33,7 +33,6 @@
             this.chkList = new System.Windows.Forms.CheckedListBox();
             this.btnSave = new System.Windows.Forms.Button();
             this.btnExaminar = new System.Windows.Forms.Button();
-            this.txtRuta = new System.Windows.Forms.TextBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -42,6 +41,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtRuta = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtDigo
@@ -50,6 +50,7 @@
             this.txtDigo.Name = "txtDigo";
             this.txtDigo.Size = new System.Drawing.Size(326, 20);
             this.txtDigo.TabIndex = 18;
+            this.txtDigo.Text = "Nombre";
             // 
             // chkList
             // 
@@ -93,16 +94,10 @@
             this.btnExaminar.UseVisualStyleBackColor = true;
             this.btnExaminar.Click += new System.EventHandler(this.btnExaminar_Click_1);
             // 
-            // txtRuta
-            // 
-            this.txtRuta.Location = new System.Drawing.Point(12, 151);
-            this.txtRuta.Name = "txtRuta";
-            this.txtRuta.Size = new System.Drawing.Size(326, 20);
-            this.txtRuta.TabIndex = 13;
-            // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.FileOk += new System.ComponentModel.CancelEventHandler(this.openFileDialog1_FileOk);
             // 
             // button6
             // 
@@ -176,11 +171,20 @@
             this.label1.TabIndex = 26;
             this.label1.Text = "Ruta de Archivo:";
             // 
+            // txtRuta
+            // 
+            this.txtRuta.Location = new System.Drawing.Point(12, 154);
+            this.txtRuta.Name = "txtRuta";
+            this.txtRuta.Size = new System.Drawing.Size(326, 20);
+            this.txtRuta.TabIndex = 28;
+            this.txtRuta.WordWrap = false;
+            // 
             // ConfigCategoria5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtRuta);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button6);
@@ -192,7 +196,6 @@
             this.Controls.Add(this.chkList);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.btnExaminar);
-            this.Controls.Add(this.txtRuta);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "ConfigCategoria5";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
@@ -209,7 +212,6 @@
         private System.Windows.Forms.CheckedListBox chkList;
         private System.Windows.Forms.Button btnSave;
         private System.Windows.Forms.Button btnExaminar;
-        private System.Windows.Forms.TextBox txtRuta;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
@@ -218,5 +220,6 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtRuta;
     }
 }

@@ -17,7 +17,6 @@ namespace WindowsFormsApp3
         public ConfigCategoria3()
         {
             InitializeComponent();
-            InitializeComponent();
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
             con.Open();
             OleDbCommand cmd = new OleDbCommand("SELECT Fondo FROM FormEx_AA WHERE Id = 1", con);
@@ -45,6 +44,7 @@ namespace WindowsFormsApp3
 
 
             }
+
         }
         private void btnSave_Click(object sender, EventArgs e)
         {

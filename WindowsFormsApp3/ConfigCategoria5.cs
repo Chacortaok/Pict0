@@ -17,7 +17,7 @@ namespace WindowsFormsApp3
         public ConfigCategoria5()
         {
             InitializeComponent();
-            InitializeComponent();
+            
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
             con.Open();
             OleDbCommand cmd = new OleDbCommand("SELECT Fondo FROM FormEx_AA WHERE Id = 1", con);
@@ -61,9 +61,16 @@ namespace WindowsFormsApp3
 
         private void btnExaminar_Click_1(object sender, EventArgs e)
         {
+            
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
-                txtRuta.Text = openFileDialog1.FileName;
+               
+                
+                    
+                    
+                    txtRuta.Text = openFileDialog1.FileName;
+
+
             }
         }
 
@@ -276,6 +283,11 @@ namespace WindowsFormsApp3
         }
 
         private void ConfigCategoria5_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
         {
 
         }

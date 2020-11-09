@@ -17,7 +17,7 @@ namespace WindowsFormsApp3
         public ConfigCategoria1()
         {
             InitializeComponent();
-            InitializeComponent();
+            
             OleDbConnection con = new OleDbConnection(@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = BaseDataPicto.accdb");
             con.Open();
             OleDbCommand cmd = new OleDbCommand("SELECT Fondo FROM FormEx_AA WHERE Id = 1", con);
@@ -26,10 +26,6 @@ namespace WindowsFormsApp3
 
             rd.Read();
             string fondo = rd.GetString(0);
-
-
-
-
             if (fondo == "Fondo Blanco")
             {
                 BackgroundImage = Resources.Sin_título;
@@ -46,6 +42,16 @@ namespace WindowsFormsApp3
 
             }
         }
+
+        
+        
+            
+
+
+
+
+            
+        
 
         private void ConfigCategoria1_Load(object sender, EventArgs e)
         {
@@ -273,6 +279,11 @@ namespace WindowsFormsApp3
             var newformconfig5 = new ConfigCategoria5();
             newformconfig5.Show();
             this.Hide();
+        }
+
+        private void txtDigo_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

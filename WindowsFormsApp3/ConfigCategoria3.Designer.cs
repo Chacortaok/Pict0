@@ -50,6 +50,7 @@
             this.txtDigo.Name = "txtDigo";
             this.txtDigo.Size = new System.Drawing.Size(326, 20);
             this.txtDigo.TabIndex = 18;
+            this.txtDigo.Text = "Nombre";
             // 
             // chkList
             // 
@@ -99,6 +100,7 @@
             this.txtRuta.Name = "txtRuta";
             this.txtRuta.Size = new System.Drawing.Size(326, 20);
             this.txtRuta.TabIndex = 13;
+            this.txtRuta.Text = "Ruta";
             // 
             // openFileDialog1
             // 
