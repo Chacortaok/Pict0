@@ -78,37 +78,57 @@ namespace WindowsFormsApp3
         int a = 0;
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            try
-            {
-                a--;
-                textBox2.Text = textBox1.Text;
-                textBox2.CharacterCasing = CharacterCasing.Lower;
-                string[] palabras = textBox2.Text.Split(' ');
-                string palabra = palabras[a];
-                var imageToShow = Properties.Resources.ResourceManager.GetObject(palabra);
-                pictureBox2.Image = (Image)imageToShow;
-                textBox2.Text = "";
-            }
-            catch
-            {
-
-            }
+            
 
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
+            
+            
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
             try
             {
+                if (a > 0)
+                {
+                    a--;
+                    textBox2.Text = textBox1.Text;
+                    textBox2.CharacterCasing = CharacterCasing.Lower;
+                    string[] palabras = textBox2.Text.Split(' ');
+                    string palabra = palabras[a];
+                    var imageToShow = Properties.Resources.ResourceManager.GetObject(palabra);
+                    pictureBox2.BackgroundImage = (Image)imageToShow;
+                    textBox2.Text = "";
+                }
+            }
+            catch
+            {
+
+            }
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+
+
 
                 textBox2.Text = textBox1.Text;
                 textBox2.CharacterCasing = CharacterCasing.Lower;
                 string[] palabras = textBox2.Text.Split(' ');
                 string palabra = palabras[a];
-                var imageToShow = Properties.Resources.ResourceManager.GetObject(palabra);
-                pictureBox2.Image = (Image)imageToShow;
-                a++;
-                textBox2.Text = "";
+                if (a < palabras.Length)
+                {
+                    var imageToShow = Properties.Resources.ResourceManager.GetObject(palabra);
+                    pictureBox2.BackgroundImage = (Image)imageToShow;
+
+                    a++;
+                    textBox2.Text = "";
+                }
             }
             catch
             {

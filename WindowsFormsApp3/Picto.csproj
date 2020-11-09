@@ -370,97 +370,10 @@
     <None Include="Resources\FONDOO_1 %281%29.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\AMARILLO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\AZUL.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BLANCO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\GRIS.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\NARANJA.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\NEGRO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ROJO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ROSA.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\VERDE.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\VIOLETA.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\ADIOS.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\GRACIAS.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\HOLA.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\NO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\SI.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\UNO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\DOS.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\TRES.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\CUATRO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\CINCO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\SEIS.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\SIETE.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\OCHO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\NUEVE.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\DIEZ.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ABURRIDO.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\ENFADADO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ENFERMO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\FELIZ.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\MIEDO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\TRISTE.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ANDAR EN BICICLETA.png" />
@@ -473,12 +386,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\CEPILLARME LOS DIENTES.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\COMER.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\DORMIR.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\IR A.png" />
@@ -502,85 +409,19 @@
     <None Include="Resources\AAA ROPA.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\AGUA.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\CARAMELOS.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\CENA.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\CHOCOLATE.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\DESAYUNO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\MERIENDA.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\HELADO.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\CHOCOLATE1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\AJEDREZ.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\AUTO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BALONCESTO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BEISBOL.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\CUBO DE RUBIK.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\FUTBOL.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\MUÑECA.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\MUÑECO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ROMPECABEZAS.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\TENIS.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\CASA.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ESCUELA.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\HABURGUESERIA.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\HOSPITAL.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\JARDIN.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\PARADA.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\PARQUE DE PATINAJE.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\PIZZERIA.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\PLAZA.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\JARDIN1.png" />
@@ -592,67 +433,16 @@
     <None Include="Resources\AUTO1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\AVION.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BARCO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\COLECTIVO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\TAXI.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\AUTO2.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AVION1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\TREN.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\AAA ROPA1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ABRIGO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\BOTINES.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\CHANCLA.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ZAPATOS.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\VESTIDO.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\REMERA.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\PIJAMA.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\IMPERMEABLE.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\ABRIGO1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\PANTALON.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\GUANTE.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\JOYAS.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\caca.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\FONDOO_1.png" />
@@ -728,6 +518,1995 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\121731.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\121733.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abierto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abonar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abrigo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abrir el grifo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abrir la puerta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abrir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aburrido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\acceder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actividad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actividades.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adiós.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adornar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agobiada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agobiado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ahogar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ahorro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ajedrez.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alarma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alfombrilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alpargata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alzador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\amarillo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ambulancia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anciano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angustiada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\angustiado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apilar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aplaudir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aprobar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aprobar_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arándano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\armario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrodillado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrodillar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arroz con leche.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asamblea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asiento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asomar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atacar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\atacar_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ausente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auto%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ayuntamiento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\azul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\baloncesto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\banco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bañar%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bañar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bañarme_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bañarse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\base aérea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bazar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beisbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bicicleta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\biología.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bodi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\body.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boniato.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botines.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botiquín.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\butaca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\C-130.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caftán.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calentar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calima.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calmar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cambio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cantar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caramelo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caridad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carta a Papá Noel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\catástrofe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\célula.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cementerio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cepillar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chancla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charlar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chilaba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chocar los puños.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chocolate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choque de puños.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chumbera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chupar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chupar_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chuparquia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinefórum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinta de regalo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clasificador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colchoneta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colectivo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comer%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compostador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comprar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compresa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comunicación.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confiar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confiar_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\confinamiento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contenedor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\conversar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cordones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correr.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cortar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\criticar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cualquier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cualquiera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuarentena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuatro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cubo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cubrecalzado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuña.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cúpula.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dátil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\decir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\decoración.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\decorar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defender.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deportivas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\derribar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desayuno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descansar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desconfinamiento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desempleada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desescalar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desfibrilador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desinfectante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desinfectar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desmayar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desmayarse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desmayo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desordenado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desordenar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\despegar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desperezar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desperezarse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\despertar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\despertarse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dialogar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dibujo técnico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diez.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disfraz de bruja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\divertida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\divertido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dormida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dormido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dormir en clase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dormir%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dormir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dosificar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\echar jabón.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\economía.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\efadado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\electroestimulador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elevador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elfa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elfo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enfermo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enrollar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ensartable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ensartar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrenadora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrevista.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrevistar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EPI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eructar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escanciar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escuchar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escuela.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\esperanza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estación de autobuses.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estampar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estirar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estornudar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estornudo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estrangular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expresar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\extender.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\faltar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farmacia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feliz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feminismo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\feminista.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\férula.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fijación.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filosofía.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filtrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fin de semana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\física.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flor de Pascua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fortaleza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto de perfil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fragata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frambuesa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\francés.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fregar la taza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frotis nasal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\futbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ganar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gasto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gavetero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gel hidroalcohólico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\geología.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gimnasio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gorro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grabar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gracias.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graduar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\griego.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gris.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hablar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamburgueseria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\harira.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heladería turronería.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helado%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hércules.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hibernar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\higa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\higo chumbo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\historia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospital%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospital.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\huevo relleno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\imitar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\impermeable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ingreso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inhalar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jabador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jardin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jellaba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jotera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jotero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\joteros.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\joyas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jugar con la tableta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jugar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jurado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\juzgar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kefta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kiosko.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kofta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lanza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lavacabezas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lavar el pelo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leer_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lejos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lengua y literatura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\licornio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limar las uñas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limpiar el pis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limpiar el pis_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limpiar el pis_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limpiar la suela.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\limpiar los zapatos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\linier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\linier_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\liquido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\listo para comer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llamar al 112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llamar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llamar_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llevar a corderetas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llevar a cuestas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llevar a horcajadas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llevar mascarilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llevar mascarilla_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llevar mascarilla_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llevar mascarilla_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llevar mascarilla_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llevar mascarilla_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llevar mascarilla_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llevar mascarilla_7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llevar mascarilla_8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llevar mascarilla_9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llevar mascarilla_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llevar mascarilla_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llevar pantalla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llevar pantalla_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llevar pantalla_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llorar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lobo Feroz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\locutorio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lugares.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\machismo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maicena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maíz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mal_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mámpara.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manguera de incendios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mantener la distancia de seguridad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mantener la distancia de seguridad_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mantener la distancia de seguridad_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maquinilla de cortar el pelo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maquinista.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maquinista_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\masajeador de cabeza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mascarilla con válvula.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mascarilla desechable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mascarilla desechable_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mascarilla FFP1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mascarilla FFP2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mascarilla FFP3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mascarilla FFP3_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mascarilla quirúrgica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mascarilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mascarilla_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mascarilla_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mascarilla_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mascarilla_4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mascarilla_5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\matemáticas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mearse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mearse_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medalla de bronce.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medalla de plata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\merienda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meter el almuerzo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mezuzá.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\miedo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\militar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\militar_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\militar_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\militar_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\militares.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mirar a los ojos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mirar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mirar_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mirar_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mirar_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mojado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mojar los labios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mojar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mojón!.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mojón.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\montar claras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\montar en autobús.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monumento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mujer con mascarilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mujer con mascarilla_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mujer con parálisis cerebral.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\muñeca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\muñeco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\naranja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\negro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\niña con mascarilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\niña con pantalla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\niña con pañal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\niña con parálisis cerebral.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\niño con mascarilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\niño con pantalla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\niño con pañal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\niño con parálisis cerebral.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\niños de perfil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\niños.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\no.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nopal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nueve.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\números.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\observar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\observar_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\obsesión.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\obsesionar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ocho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oftalmómetro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oír.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\operaciones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orinar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paciencia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paje real.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paje real_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paje.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paje_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\palera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\palillo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\panel japonés.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pantalón de chándal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pantalon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pantalones.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pañuelo tubular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parada%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pasear al perro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patatas asadas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PCR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pechina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pederse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pedir por teléfono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pedir un taxi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peineta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\película en BR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\película en DVD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peluca%281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peluca.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pepinillo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perdido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\perfil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\persona con EPI.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\persona con pantalla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\persona con parálisis cerebral.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pescado a la plancha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pescado en salsa de espárragos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pescado hervido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\peso de cocina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pezonera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pijama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinchar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pinchar_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pintar las uñas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pisto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizarra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizzeria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plano basculante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plaza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poner cubrecalzado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poner el calcetín.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poner la bata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poner la bota.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poner la bufanda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poner la comprensa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poner la gorra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poner la mascarilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poner la mascarilla_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poner la mascarilla_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poner la mascarilla_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poner la media.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ponerse el tampón.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ponerse las lentillas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ponerse serio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\por qué.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\porra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preocupada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preocupar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preocuparse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\preparado para comer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\protector auditivo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\psicóloga cínica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\psicólogo clínico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\público.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\puf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pulsador de alarma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pulverizar desinfectante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pulverizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\puntero cefálico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\purpurina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\química.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quiosco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quitar el bañador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quitar el calcetín.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quitar el cubrecalzado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quitar el guante.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quitar el guante_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quitar la gorra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quitar la media.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quitarse el tampón.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quitarse la compresa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rabanito.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\radióloga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\radiólogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ramadán.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rebanadas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rechazar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recoger el equipaje.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recogida de equipajes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recorrer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reducir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\remera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rendición de cuentas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rendir cuentas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reposar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\respetar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restaurante chino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reutilizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\revuelto de ajetes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\robar el balón.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rodajas de berenjena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rojo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rompecabezas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ropa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotulador para pizarra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rotulador permanente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sacar el almuerzo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sacar el cepillo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sacar el cuaderno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sacar el dedo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sacar el peine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salón de plenos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salvamanteles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\San Isidro Labrador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seísmo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seleccionar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\semáforo en ambar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\semáforo rojo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\semáforo verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sentar en semicírculo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sentimientos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sentir vergüenza ajena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ser paciente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\servilleta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sexóloga.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sexólogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shebbakiyya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\si.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siclo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siesta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siesta_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\silla con comunicador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sillón lavacabezas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skatepark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sogatira.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soldado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soldado_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sólido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Somalia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Somalia_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sonar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sonar_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sonarse la nariz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sonarse la nariz_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subir al autobús.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subir los leotardos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sudorosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\superhéroes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suspender.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suspender_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suspender_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suturar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suturar_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tapón para los oídos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tareas del hogar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tareas domésticas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarjeta sanitaria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tarjeta sanitaria_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taxi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teatro de luz negra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tecnología.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teletrabajo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\television.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\temblor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tener ganas de hacer pis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tener paciencia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tenis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tens.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terapia de pareja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terapia de pareja_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terapia de pareja_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\termómetro de infrarrojos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\termómetro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terremoto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\test PCR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tienda abierta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tienda cerrada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tienda de bacalao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tienda de electrónica y electricidad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tienda de objetos funerios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tienda de serigrafía.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timbal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timbales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tirar a canasta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tirar a canasta_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tirar de la cadena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tirar la compresa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tirar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tiza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toallero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomar la temperatura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomar la temperatura_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomar la temperatura_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tomar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toser en el codo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toser en la cara.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trabajar con mampara.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tranquilizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transportes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tren.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tres.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\triste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tubillón.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumbado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumbar bocabajo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumbar bocarriba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumbarse bocabajo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumbarse bocarriba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tunel de tela.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tutoría.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Txotx!.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UCI pediátrica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\uno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\urgente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\urna.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vacunación.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vencer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ventosear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ver la tele.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ver la tele_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ver la tele_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ver la tele_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ver la televisión.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vestido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\viajar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\violeta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vitamina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\voluntaria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\voluntario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\voluntario_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vomitar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vuelta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yeguada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yogurtera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zancos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zapatilla.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zapatillas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zapatos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zueco.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
